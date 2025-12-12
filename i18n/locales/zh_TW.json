@@ -1,0 +1,4460 @@
+{
+  "you": "你",
+  "select": "選擇",
+  "conversations": "對話",
+  "copyToClipboard": "複製到剪貼簿",
+  "toCopyMarkdownDirectly": "直接複製 Markdown",
+  "clickToCopyMarkdownDirectly": "點擊直接複製 Markdown",
+  "toShowMoreOptions": "顯示更多選項",
+  "longPressOrAltClickForMoreOptions": "長按或 Alt+點擊 以顯示更多選項",
+  "onMessage": "訊息",
+  "selectModel": "選擇模型 | 選擇模型",
+  "manageModels": "@:manage模型",
+  "required": "必填",
+  "optional": "選填",
+  "systemPrompt": "系統提示詞",
+  "systemPromptAttachMode": "@:systemPrompt 附加@:mode",
+  "userPrompt": "@:user 提示詞",
+  "delete": "刪除{item}",
+  "deleteAll": "刪除全部",
+  "create": "建立",
+  "edit": "編輯",
+  "enable": "啟用",
+  "disable": "停用",
+  "save": "儲存",
+  "cancel": "取消",
+  "close": "關閉",
+  "update": "更新",
+  "apply": "套用",
+  "reset": "重設",
+  "icon": "圖示",
+  "clear": "清除",
+  "apiKey": "API 金鑰",
+  "models": "模型",
+  "available": "可用{itemType}",
+  "unavailable": "不可用",
+  "detected": "已偵測到",
+  "continue": "繼續",
+  "undetected": "未偵測到",
+  "welcome": "歡迎！",
+  "plan": "計畫",
+  "waitingMessage": {
+    "waiting": "請稍候 :: 稍等片刻 :: 馬上就好 :: 耐心是種美德 :: 即將完成 :: 精彩即將呈現",
+    "fetchingWebResults": "正在搜尋網路 :: 正在瀏覽網際網路 :: 正在線上查找 :: 正在搜尋網路 :: 正在諮詢先知 :: 正在友好地詢問網際網路 :: 正在潛入網路空間 :: 正在挖掘網路",
+    "queryingKnowledgeStack": "正在查詢@:knowledgeStack.title :: 正在搜尋您的知識庫 :: 正在查閱您的檔案 :: 正在探索您的知識庫 :: 正在翻閱您的智慧結晶 :: 正在諮詢您的數位圖書館 :: 正在掃描您的檔案 :: 正在挖掘您的筆記",
+    "preparingTools": "正在準備工具 :: 正在就緒工具 :: 正在設定工具 :: 正在載入工具 :: 正在磨礪器具 :: 正在組裝工具箱 :: 正在預熱引擎 :: 正在準備工作區",
+    "connectingToModel": "模型正在施展魔法 ✨ :: AI 正在思考 :: 正在處理您的請求 :: 正在努力工作中 :: 正在運算資料 :: 神經元正在放電 :: 正在深思熟慮 :: 正在計算智慧 :: 正在開啟大腦模式 :: 正在召喚智慧",
+    "processingContext": "正在處理上下文 :: 正在理解上下文 :: 正在分析上下文 :: 正在解讀局勢 :: 正在連接線索 :: 正在掌握全域 :: 正在拼湊資訊 :: 正在理清頭緒",
+    "streaming": "正在串流 :: 正在傳送回應 :: 正在傳遞答案 :: 正在傳輸 :: 正在傳送結果 :: 正在流向您 :: 正在途中 :: 正在火速趕來",
+    "scrubbingPIIData": "正在清理 PII 資料 :: 正在保護您的隱私 :: 正在移除個人資訊 :: 正在匿名化資料 :: 正在保護秘密安全 :: 隱私模式已開啟 :: 正在編輯敏感內容 :: 正在隱身",
+    "synthesizingQuery": "正在合成查詢以取得更好結果 :: 正在優化您的問題 :: 正在增強查詢 :: 正在精煉搜尋詞 :: 正在潤飾您的請求 :: 正在微調問題 :: 正在草擬完美查詢 :: 正在讓您的文字閃耀",
+    "fetchingLiveContexts": "正在取得即時內容 :: 正在收集即時資料 :: 正在提取新鮮見解 :: 正在同步即時來源 :: 正在接入資料流程 :: 正在收集當前情報 :: 正在重新整理內容來源 :: 正在收穫即時更新 :: 正在連接脈搏"
+  },
+  "progress": {
+    "initializing": "正在初始化..."
+  },
+  "add": "新增",
+  "actionBar": {
+    "expandGroup": "展開{group}",
+    "collapseGroup": "折疊{group}",
+    "showExtraAddOns": "顯示額外外掛程式",
+    "hideExtraAddOns": "隱藏額外外掛程式",
+    "groups": {
+      "model": "模型與提示詞",
+      "data": "數據與知識庫",
+      "tools": "工具與角色"
+    }
+  },
+  "unauthorized": "未授權",
+  "valid": "有效",
+  "invalid": "無效",
+  "done": "完成！",
+  "confirm": "確認",
+  "shareWithSyncedSplits": "與同步的拆分對話共用",
+  "source": "來源 | 來源",
+  "groundingSources": "參考來源",
+  "manage": "管理",
+  "chat": "聊天 | 聊天",
+  "advancedOptions": "進階選項",
+  "duplicate": "建立副本",
+  "manageItem": "@:manage{item}",
+  "success": "成功！",
+  "notes": "筆記",
+  "viewNotes": "查看筆記",
+  "error": "錯誤！",
+  "warning": "警告",
+  "failedToDelete": "刪除失敗",
+  "failedToSave": "儲存失敗",
+  "failedToUpdate": "更新失敗",
+  "updatedSuccess": "更新成功。",
+  "applyAndShareWithSyncedSplits": "套用並與同步的拆分對話共用",
+  "clickToEdit": "點擊編輯",
+  "clickToAddSystemPrompt": "點擊新增@:systemPrompt",
+  "pause": "暫停",
+  "resume": "繼續",
+  "retry": "重試",
+  "stop": "停止",
+  "run": "執行",
+  "rerun": "重新執行",
+  "remove": "移除",
+  "skip": "跳過",
+  "unskip": "取消跳過",
+  "startImporting": "開始匯入",
+  "new": "新增",
+  "entry": "條目 | 條目",
+  "import": "匯入",
+  "connect": "連接",
+  "disconnect": "斷開連接",
+  "reconnect": "重新連接",
+  "selectTargetFolder": "選擇目的資料夾",
+  "createNewFolderForImport": "為匯入的專案建立新資料夾",
+  "newFolderName": "新資料夾名稱",
+  "remote": "遠端",
+  "local": "本地",
+  "strength": "強度 | 強度",
+  "provider": "提供方",
+  "capability": "{count} 項能力 | {count} 項能力",
+  "preset": "預設 | 預設",
+  "saveAsPreset": "另存為@:preset",
+  "append": "追加",
+  "prepend": "前置",
+  "replace": "替換",
+  "description": "描述",
+  "mode": "模式",
+  "addOns": "外掛程式",
+  "user": "用戶",
+  "assistant": "助手",
+  "assistantMessage": "@:assistant @:message.title",
+  "connectionInfo": "連接資訊",
+  "exportOptions": "匯出選項",
+  "chooseFile": "選擇檔",
+  "purpose": "用途",
+  "download": "下載",
+  "downloads": "下載",
+  "downloadAsJson": "下載為 JSON",
+  "export": "匯出",
+  "install": "安裝",
+  "installed": "已安裝",
+  "modified": "已修改",
+  "created": "已建立",
+  "minimize": "最小化",
+  "status": "狀態",
+  "type": "類型",
+  "yes": "是",
+  "fileSize": "檔案大小",
+  "size": "大小",
+  "likes": "按讚 | 按讚",
+  "cancelled": "已取消",
+  "parameterSize": "參數@:size",
+  "quantization": "量化",
+  "quantizationLevel": "@:quantization級別",
+  "storage": "儲存空間",
+  "params": "參數",
+  "arch": "架構",
+  "filter": "篩選",
+  "noSearchResults": "未找到此搜尋的{item}",
+  "loading": "載入中",
+  "invite": "邀請",
+  "refresh": "重新整理",
+  "email": "電子郵件",
+  "role": "角色",
+  "admin": "管理員",
+  "owner": "擁有者",
+  "inActive": "未啟動",
+  "argument": "參數 | 參數",
+  "abort": "中斷",
+  "send": "傳送",
+  "remindMeLater": "稍後提醒我",
+  "text": "文字",
+  "folders": "資料夾",
+  "folder": "資料夾 | @:folders",
+  "title": "標題",
+  "search": "搜尋",
+  "none": "無",
+  "change": "更改",
+  "expandAllProjects": "展開所有專案",
+  "collapseAllProjects": "折疊所有專案",
+  "clone": {
+    "title": "複製{item}",
+    "successMessage": {
+      "detail": "{item}已複製"
+    },
+    "errorMessage": {
+      "detail": "複製{item}失敗"
+    }
+  },
+  "notesPurposePlaceholder": "新增筆記以説明您記住此{item}的用途及其他細節（@:optional）",
+  "endpointTestResults": "端點測試結果",
+  "testConnection": "測試連接",
+  "emptyPlaceholder": "未找到{item}",
+  "selectItem": "選擇{item}",
+  "selectedItemLabel": "{count} {title}",
+  "feature": "功能 | 功能",
+  "raw": "原始",
+  "rawOutput": "原始輸出",
+  "property": "屬性 | 屬性",
+  "configure": "設定",
+  "context": "內容 | 內容",
+  "path": "路徑 | 路徑",
+  "project": {
+    "createRootProject": "在根目錄新建專案",
+    "projectName": "專案名稱",
+    "projectDescription": "專案描述",
+    "defaultModel": "預設模型",
+    "customInstructions": "自訂指令",
+    "addChildProject": "新增子專案",
+    "deleteProject": "刪除專案",
+    "setDefaultForNewConversations": "設為預設專案",
+    "unsetDefaultForNewConversations": "取消設為預設專案",
+    "orphanageProjectName": "雜項",
+    "includeProjectContext": "包含專案內容",
+    "deleteConfirmation": {
+      "header": "刪除專案",
+      "message": "您確定要刪除 {projectName} 及其所有對話嗎？",
+      "rejectLabel": "@:cancel",
+      "acceptLabel": "@:delete",
+      "successMessage": {
+        "detail": "已刪除專案"
+      }
+    },
+    "deleteAllConversations": {
+      "title": "刪除所有對話",
+      "description": "您確定要刪除 {projectName} 中的所有對話嗎？此操作無法撤銷。",
+      "successMessage": {
+        "detail": "已刪除 {count} 個對話 | 已刪除 {count} 個對話",
+        "empty": "沒有可刪除的對話"
+      },
+      "errorMessage": {
+        "detail": "刪除對話失敗"
+      }
+    },
+    "projectForm": {
+      "addFiles": "新增檔案",
+      "editProject": "編輯專案",
+      "createNewProject": "新增專案",
+      "dragAndDropFiles": "拖放檔以附加到此專案中的每個對話。",
+      "successMessage": {
+        "summary": "@:success",
+        "createDetail": "專案已建立",
+        "updateDetail": "專案已更新"
+      },
+      "errorMessage": {
+        "summary": "@:error",
+        "createDetail": "建立專案失敗",
+        "updateDetail": "更新專案失敗"
+      }
+    }
+  },
+  "selectedModel": "已選模型",
+  "endpoint": "端點",
+  "authToken": "認證 Token",
+  "before": "之前",
+  "after": "之後",
+  "method": "方法",
+  "httpMethod": "HTTP @:method",
+  "get": "Get",
+  "post": "Post",
+  "presetAlreadyExistsMessage": "具有相同名稱的 @:preset 已存在。",
+  "duplicatePresetOverwriteMessage": "@:presetAlreadyExistsMessage 如果儲存，將覆蓋現有預設。",
+  "noPropsAvailable": "沒有可用的 {propsName}。新增一個自訂項。",
+  "localAI": "本地AI服務",
+  "conversation": {
+    "title": "對話 | 對話",
+    "conversationTitle": "@:conversation.title標題",
+    "contextShieldErrorMessage": {
+      "summary": "生成上下文摘要失敗。",
+      "detail": "檢查 設定 > 通知 以取得更多詳細資訊。"
+    },
+    "sendErrorMessage": {
+      "summary": "發送訊息失敗。",
+      "detail": "檢查 設定 > 通知 以取得更多詳細資訊。{error}"
+    },
+    "deleteConversation": "刪除@:conversation.title",
+    "addNewConversation": "新增新@:conversation.title",
+    "newConversation": "新@:conversation.title",
+    "promptPlaceHolder": {
+      "normal": {
+        "focused": "按 {trigger} 鍵使用快捷指令 或 開始輸入...",
+        "unfocused": "按 / 鍵聚焦此處並開始輸入"
+      }
+    },
+    "deleteConfirmation": {
+      "header": "刪除@:conversation.title",
+      "message": "您確定要刪除選中的對話及其所有拆分嗎？ | 您確定要刪除選中的對話及其所有拆分嗎？",
+      "rejectLabel": "@:cancel",
+      "acceptLabel": "@:delete",
+      "successMessage": {
+        "detail": "@:conversation.title已刪除"
+      },
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "刪除@:conversation.title失敗"
+      }
+    },
+    "convertToChat": {
+      "title": "轉換為聊天",
+      "successMessage": {
+        "detail": "@:conversation.title已轉換為聊天"
+      },
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "將對話轉換為聊天失敗"
+      }
+    },
+    "convertToForgeCanvas": {
+      "title": "轉換為@:forge.forgeCanvas",
+      "successMessage": {
+        "detail": "@:conversation.title已轉換為@:forge.forgeCanvas"
+      },
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "將對話轉換為@:forge.forgeCanvas失敗"
+      }
+    },
+    "cloneAncestorsSuccess": {
+      "summary": "@:success",
+      "detail": "已將訊息複製到新拆分"
+    },
+    "cloneAncestorsError": {
+      "summary": "@:error",
+      "detail": "複製訊息到新拆分失敗"
+    },
+    "cloneAncestorsToNewConversationSuccess": {
+      "summary": "@:success",
+      "detail": "已將訊息複製到新對話"
+    },
+    "cloneAncestorsToNewConversationError": {
+      "summary": "@:error",
+      "detail": "複製訊息到新對話失敗"
+    }
+  },
+  "conversationActions": {
+    "exportConversation": {
+      "title": "匯出@:conversation.title為 JSON",
+      "successMessage": "已成功匯出對話為 JSON"
+    },
+    "showAllSplits": "顯示所有拆分",
+    "saveSplitsAs": "拆分另存為",
+    "newSingleSplitChat": "新建單拆分聊天",
+    "splitPreset": "拆分預設 | 拆分預設",
+    "splitPresetForm": {
+      "saveTitle": "儲存拆分為@:preset",
+      "editTitle": "編輯拆分@:preset {presetName}",
+      "presetName": "@:preset名稱",
+      "presetOptions": "@:preset選項",
+      "presetOptionsPlaceholder": "選擇@:preset選項",
+      "savePreset": "儲存@:preset",
+      "successMessage": {
+        "summary": "@:success",
+        "saveDetail": "已新增拆分@:preset",
+        "editDetail": "已更新拆分@:preset"
+      },
+      "errorMessage": {
+        "saveDetail": "儲存拆分@:preset失敗"
+      }
+    },
+    "deleteSplitPresetConfirmation": {
+      "header": "刪除拆分@:preset",
+      "message": "您確定要刪除 {splitPresetName} 嗎？",
+      "successMessage": {
+        "detail": "已刪除拆分@:preset"
+      }
+    },
+    "compactMode": "緊湊模式",
+    "enableCompactMode": "啟用緊湊模式",
+    "disableCompactMode": "停用緊湊模式",
+    "splitWidths": {
+      "title": "拆分寬度",
+      "slim": "極窄",
+      "balanced": "平衡",
+      "roomy": "寬敞",
+      "spacious": "闊綽",
+      "full": "全寬"
+    }
+  },
+  "modelParams": {
+    "params": "參數",
+    "title": "模型參數",
+    "advancedParams": "進階參數",
+    "providerOptions": "提供方選項",
+    "maxTokens": "最大輸出 Token (舊版)",
+    "maxOutputTokens": "最大輸出 Token",
+    "temperature": "溫度 (Temperature)",
+    "topP": "Top P",
+    "presencePenalty": "存在懲罰 (Presence Penalty)",
+    "frequencyPenalty": "頻率懲罰 (Frequency Penalty)",
+    "numCtx": "上下文視窗@:size",
+    "numGpu": "GPU 層數",
+    "selectPlaceholder": "@:select 或插入一個參數",
+    "selectPresetPlaceholder": "@:select 一個@:preset",
+    "saveAsPreset": "另存為@:preset",
+    "addParameter": "新增新參數",
+    "extraParams": "額外@:params",
+    "applyAndSaveAsDefault": "套用並儲存為模型預設值",
+    "savePresetForm": {
+      "title": "儲存參數為預設",
+      "errorMessage": {
+        "detail": "儲存參數預設失敗。"
+      },
+      "successMessage": {
+        "detail": "參數預設已儲存。"
+      }
+    },
+    "deletePresetConfirm": {
+      "title": "刪除@:preset",
+      "message": "您確定要刪除 {presetName} 嗎？",
+      "errorMessage": {
+        "detail": "刪除參數預設失敗。"
+      },
+      "successMessage": {
+        "detail": "參數預設已刪除。"
+      }
+    },
+    "thinkingEffort": {
+      "label": "思考力度",
+      "light": "輕度思考",
+      "moderate": "中度思考",
+      "deep": "深度思考",
+      "default": "預設",
+      "none": "無",
+      "dynamic": "動態",
+      "exclude": "排除"
+    }
+  },
+  "chatSplitActions": {
+    "title": "拆分選項",
+    "addSplitChat": "新增拆分聊天",
+    "hideSplit": "隱藏拆分",
+    "copySplitToNewConversation": "複製拆分到新對話",
+    "moveSplitToNewConversation": "移動拆分到新對話",
+    "deleteSplit": "刪除拆分",
+    "removeSplit": "移除拆分",
+    "splitRemoved": "拆分已移除",
+    "splitReset": "拆分已重設",
+    "copySplitToNewConversationSuccess": {
+      "summary": "@:success",
+      "detail": "已將拆分複製到新對話"
+    },
+    "moveSplitToNewConversationSuccess": {
+      "summary": "@:success",
+      "detail": "已將拆分移動到新對話"
+    },
+    "copySplitToNewConversationError": {
+      "summary": "@:error",
+      "detail": "複製拆分到新對話失敗"
+    },
+    "moveSplitToNewConversationError": {
+      "summary": "@:error",
+      "detail": "移動拆分到新對話失敗"
+    },
+    "exportOrCopyChat": {
+      "exportChat": "匯出聊天",
+      "copyChat": "複製聊天",
+      "activeBranchAsJson": "當前分支為 JSON",
+      "activeBranchAsMarkdown": "當前分支為 Markdown",
+      "allBranchesAsJson": "所有分支為 JSON",
+      "successMessage": "已成功將聊天{action}為 {format}",
+      "action": {
+        "export": "匯出",
+        "copy": "複製"
+      }
+    },
+    "showAllHiddenMessages": {
+      "title": "顯示所有隱藏訊息",
+      "successMessage": {
+        "detail": "所有隱藏訊息現已可見"
+      }
+    },
+    "deleteConfirmation": {
+      "header": "刪除拆分",
+      "message": "您確定要刪除此拆分嗎？",
+      "rejectLabel": "@:cancel",
+      "acceptLabel": "@:delete"
+    }
+  },
+  "message": {
+    "title": "訊息 | 訊息",
+    "currentMessageAndDescendants": "訊息及其後代",
+    "sendOnEnter": "按 Enter 發送",
+    "sendModifier": {
+      "label": "發送修飾鍵",
+      "none": "無",
+      "shift": "Shift",
+      "alt": "Alt",
+      "ctrl": "Ctrl",
+      "meta": "Meta"
+    },
+    "resendUserMessage": "重新發送使用者訊息",
+    "sendAsAssistantMessage": "作為@:assistant訊息發送",
+    "sendAsAssistantMessageHelp": "作為“助手”發送訊息可以讓您通過自己新增 AI 回應來塑造對話。AI 將繼續進行，就好像它是自己寫的那條訊息一樣。對於提供上下文或引導回應很有用。",
+    "sentAsAssistantBadge": "作為助手訊息發送",
+    "stopGeneration": "停止",
+    "renderingActions": {
+      "bookmark": "收藏訊息 | 收藏訊息",
+      "removeBookmark": "移除收藏 | 移除收藏",
+      "deleteMessage": "刪除訊息 | 刪除訊息",
+      "removeMessage": "移除訊息",
+      "regenerateAssistantMessage": "作為新分支重新生成助手訊息",
+      "continueGeneration": "@:continue生成",
+      "useAsPromptInNewSplit": "在新拆分中用作提示詞",
+      "foldUp": "折疊上方訊息",
+      "unfold": "展開上方訊息",
+      "cloneAncestorsToNewSplit": "連同祖先複製到新拆分",
+      "cloneAncestorsToNewConversation": "連同祖先複製到新對話",
+      "extraActions": "額外操作"
+    },
+    "noModelSelectedErrorMessage": {
+      "summary": "@:error",
+      "detail": "未選擇模型。請選擇一個模型以發送訊息"
+    },
+    "currentMessageDeleteConfirmation": {
+      "header": "刪除訊息",
+      "message": "您確定要刪除此訊息嗎？"
+    },
+    "currentMessageAndDescendantsDeleteConfirmation": {
+      "header": "刪除訊息及其後代",
+      "message": "您確定要刪除此訊息及其所有後代嗎？"
+    }
+  },
+  "slashCommands": {
+    "title": "快捷指令",
+    "noMatches": "無匹配指令",
+    "hint": "輸入 \\ 後跟指令或別名",
+    "executed": {
+      "regenerate": "正在重新生成訊息...",
+      "shield": "上下文保護盾已套用",
+      "compress": "正在使用保護盾壓縮...",
+      "bookmark": "訊息已收藏",
+      "copy": "已複製到剪切板",
+      "continue": "正在繼續生成...",
+      "resend": "正在重新發送訊息..."
+    }
+  },
+  "shiftcutMode": {
+    "isOn": "Shiftcut 已啟用。按兩下 Shift 以停用",
+    "isOff": "Shiftcut 已停用。按兩下 Shift 以啟用"
+  },
+  "urlEndpoint": "URL 端點",
+  "giveUniqueNamePlaceholder": "給它一個唯一的名稱",
+  "duplicateName": "重複或無效的{item}名稱。請輸入唯一的名稱。",
+  "manageData": {
+    "firstBackupReminder": "您尚未備份資料，是否要匯出資料以進行備份？",
+    "scheduledBackupReminder": "距離您上次備份已過 24 小時，是否要匯出資料以進行備份？",
+    "nonPersistentStorage": "在儲存壓力下，瀏覽器可能會清除儲存。我們建議定期備份您的資料。",
+    "exportData": "匯出數據",
+    "clearData": "清除資料",
+    "restoreData": "恢復資料",
+    "dragAndDropExportedData": "拖放您的資料備份以進行恢復。",
+    "restoreDataWarning": "從備份檔案恢復將替換所有現有資料。我們建議先匯出備份。",
+    "exportErrorMessage": {
+      "summary": "@:error",
+      "detail": "匯出數據失敗"
+    },
+    "backupData": "備份資料",
+    "exportSuccessMessage": {
+      "summary": "@:success",
+      "detail": "已匯出@:data"
+    },
+    "clearErrorMessage": {
+      "summary": "@:error",
+      "detail": "清除資料失敗"
+    },
+    "clearSuccessMessage": {
+      "summary": "@:success",
+      "detail": "已清除@:data"
+    },
+    "confirmationActionPlaceholder": "在此輸入 '{string}'",
+    "proceedWithConfirmationAction": "請在下方輸入 '{string}' 以繼續",
+    "invalidConfirmationString": {
+      "summary": "警告",
+      "detail": "確認無效。請輸入 '{string}' 以繼續。"
+    },
+    "clearDataConfirmation": {
+      "header": "清除資料",
+      "message": "您確定要清除所有資料嗎？此操作無法撤銷。",
+      "rejectLabel": "取消",
+      "acceptLabel": "清除"
+    },
+    "restoreDataConfirmation": {
+      "fileNotSelectedWarning": {
+        "summary": "警告",
+        "message": "請選擇要恢復的檔"
+      },
+      "header": "恢復資料",
+      "message": "您確定要恢復所有資料嗎？此操作將替換所有現有資料且無法撤銷。我們建議先匯出備份。",
+      "rejectLabel": "取消",
+      "acceptLabel": "恢復"
+    },
+    "importDataSuccessMessage": {
+      "summary": "@:success",
+      "detail": "數據已匯入"
+    },
+    "importDataErrorMessage": {
+      "summary": "@:error",
+      "detail": "匯入數據失敗"
+    }
+  },
+  "setupItem": {
+    "label": "設定{item}",
+    "success": "{item}設定完成",
+    "failure": "無法設定{item}"
+  },
+  "onboard": {
+    "greeting": "歡迎來到 Msty Studio！",
+    "getStarted": "我們需要至少一個模型提供方才能開始。",
+    "desktop": {
+      "greeting": "歡迎來到 Msty！",
+      "getStarted": "您想如何開始？",
+      "customLocation": {
+        "title": "已有 Ollama/Msty 模型？",
+        "titleMLX": "已有 MLX 模型？",
+        "description": "如果已有任何 Ollama 或 Msty 模型，您可以直接使用它們，或者指定自訂位置。注意：我們仍將使用我們自己的服務來執行這些模型。",
+        "descriptionMLX": "如果您還沒有任何 MLX 模型，可以指定您想要儲存它們的自訂位置。",
+        "descriptionMLXWithSwama": "我們在您的 Hugging Face Hub 緩存中發現了 MLX 模型！您可以直接使用它們或指定自訂位置。",
+        "noLocationSet": "未設定位置",
+        "setYourOwn": "自行設定",
+        "notAvailableForMLX": "自訂模型位置不適用於 MLX",
+        "placeholder": "輸入自訂模型路徑"
+      },
+      "setupLocalAI": {
+        "description": "為了讓您開始，將下載 {modelName}。您可以選擇其他模型。",
+        "pros": {
+          "item1": "使用 DeepSeek R1, Meta Llama4, Microsoft Phi4, IBM Granite, Google Gemma 等模型",
+          "item2": "離線使用並保持您的@:data私密",
+          "item3": "模型免費下載和使用",
+          "item4": "安裝和使用專用模型"
+        },
+        "cons": {
+          "item1": "需要額外的儲存空間和記憶體"
+        },
+        "successMessage": {
+          "summary": "就這樣！",
+          "detail": "您現在可以私密且安全地開始與您的模型聊天了。"
+        },
+        "errorMessage": {
+          "summary": "設定@:localAIService出錯",
+          "detail": "我們無法設定@:localAIService{'.'} 請檢查記錄以取得更多詳細資訊。{errorMessage}",
+          "epermDetail": "設定本地 AI 時出現權限問題。您可以嘗試以管理員身份重新執行套用程式（不推薦），或考慮僅為單個使用者安裝套用程式（推薦）。",
+          "abortDetail": "{errorMessage} 如果您繼續遇到此錯誤，請考慮從壓縮包安裝本地 AI。請存取 https://docs.msty.studio/getting-started/onboarding"
+        }
+      },
+      "setupMLX": {
+        "errorMessage": {
+          "summary": "設定 MLX 服務出錯",
+          "detail": "我們無法設定 MLX 服務。請檢查記錄以取得更多詳細資訊。{errorMessage}"
+        },
+        "description": "為了讓您開始，將下載 {modelName}。MLX 是 Apple 為 Apple Silicon 優化的框架。",
+        "experimentalInfo": "MLX 目前處於實驗模式。它可能有一些限制和粗糙邊緣。請向團隊報告任何問題。",
+        "pros": {
+          "item1": "針對 Apple Silicon (M1, M2, M3, M4) 優化",
+          "item2": "利用統一記憶體架構的高效記憶體使用",
+          "item3": "支援 MLX, SafeTensors, 和 GGUF 模型",
+          "item4": "在 macOS 上的原生性能"
+        },
+        "cons": {
+          "item1": "僅適用於 Apple Silicon Mac",
+          "item2": "相比 Ollama 模型選擇較少"
+        },
+        "successMessage": {
+          "summary": "MLX 設定完成！",
+          "detail": "您現在可以在 Mac 上使用具有最佳性能的 MLX 模型。"
+        },
+        "progress": {
+          "checkingCompatibility": "正在檢查系統相容性...",
+          "downloadingBinary": "正在下載 MLX 服務...",
+          "startingService": "正在啟動 MLX 服務...",
+          "settingUp": "正在設定 MLX...",
+          "downloadProgress": "正在下載模型: {progress}%"
+        }
+      },
+      "addRemoteModelsProvider": {
+        "description": "對於大多數線上提供方，您需要從提供方網站取得 API 金鑰。{findYourKey}",
+        "findYourKey": "查找您的 API 金鑰",
+        "pros": {
+          "item1": "使用 OpenAI, Azure, Claude Sonnet, Google Gemini, Perplexity, 遠端 Ollama, 遠端 Msty 等",
+          "item2": "無需下載模型即可開始",
+          "item3": "一些供應商提供額外功能，如圖像生成、網路搜尋等"
+        },
+        "cons": {
+          "item1": "需要互聯網連接才能聊天",
+          "item2": "供應商可能會收取費用"
+        }
+      }
+    },
+    "modelsAvailableCount": "{count}個模型可用 | {count}個模型可用",
+    "modelsAddedCount": "已新增{count}個模型 | 已新增{count}個模型",
+    "forgetThisProvider": "忘記此提供方",
+    "submitAndContinue": "開始吧！",
+    "getSidecar": "沒有@:localAI？取得@:remoteToolsConnector.title以一鍵設定",
+    "completedWithProvider": {
+      "summary": "就這樣！",
+      "detail": "您現在準備好與來自 {providerName} 的模型聊天了。"
+    },
+    "continueSetup": "繼續 {service} 設定"
+  },
+  "login": {
+    "enterEmail": "輸入您的電子郵件",
+    "errorMessage": "電子郵件無效或出現問題。請重試。",
+    "successMessage": "登入連結已發送至 {email}"
+  },
+  "modelHub": {
+    "title": "模型中心",
+    "languageModelsProviders": {
+      "title": "模型提供方",
+      "subtitle": "存取雲端或遠端伺服器的模型。",
+      "autoFetchModels": "模型清單自動更新",
+      "addLanguageModelsProvider": "新增提供方",
+      "prosAndCons": {
+        "pros": [
+          "使用 OpenAI GPT, Azure, Claude Sonnet, Google Gemini, Perplexity, 遠端 Msty, 遠端 Ollama 等。",
+          "快速開始",
+          "無需下載"
+        ],
+        "cons": [
+          "需要互聯網連接才能聊天",
+          "供應商可能會收取費用"
+        ]
+      },
+      "deleteConfirmation": {
+        "header": "刪除提供方",
+        "message": "您確定要刪除 {providerName} 嗎？",
+        "successMessage": {
+          "detail": "已刪除提供方"
+        },
+        "errorMessage": {
+          "summary": "錯誤",
+          "detail": "刪除提供方失敗"
+        }
+      },
+      "syncProviderWithWorkspaceForm": {
+        "titleNew": "複製到其他工作空間",
+        "titleUpdate": "複製/同步到其他工作空間",
+        "descriptionNew": "將此提供方複製到一個或多個工作空間。",
+        "descriptionUpdate": "將此提供方同步到一個或多個工作空間。如果此提供方之前已複製，它將被更新。如果沒有，它將被新增。",
+        "selectWorkspaces": "@:select 工作空間",
+        "availableWorkspaces": "可用工作空間"
+      },
+      "providerForm": {
+        "addTitle": "新增提供方",
+        "updateTitle": "更新提供方",
+        "newHeader": "新語言模型提供方",
+        "editHeader": "編輯語言模型提供方",
+        "modelsProvider": "模型提供方",
+        "modelId": "模型 ID",
+        "modelName": "模型名稱",
+        "providerName": "提供方名稱",
+        "providerUrl": "提供方 URL",
+        "providerToken": "提供方 Token",
+        "saveProvider": "儲存提供方",
+        "selectProvider": "@:select 提供方",
+        "namePlaceholder": "給它一個名字（可選）",
+        "selectModels": "選擇模型",
+        "availableModels": "可用模型",
+        "addCustomModel": "新增自訂模型",
+        "inferenceEndpoint": "推理端點 (必須以 http:// 或 https:// 開頭)",
+        "baseURL": "Base URL",
+        "resourceName": "資源名稱 (如果設定了 Base URL 將被忽略)",
+        "apiVersion": "API @:version",
+        "region": "AWS 區域",
+        "accessKeyId": "存取金鑰 ID (Access Key ID)",
+        "secretAccessKey": "秘密存取金鑰 (Secret Access Key)",
+        "sessionToken": "會話 Token (可選)",
+        "notAllModelsCompatible": "並非所有模型都已通過 Msty 測試，它可能不支援提供方中可用的所有模型。",
+        "enterAndManuallyFetchModels": "點擊 '取得模型' 以從提供方檢索可用模型（可能需要 API 金鑰），或在下方手動新增模型。",
+        "enterAndFetchModels": "輸入您的 API 金鑰以嘗試從 {providerName} 檢索所有可用模型，或手動新增自訂模型。",
+        "fetchModels": "取得模型",
+        "modelsFilter": {
+          "all": "所有模型",
+          "selected": "已選",
+          "unselected": "未選"
+        },
+        "lmsCorsNote": "您必須在 LM Studio 中啟用 CORS (跨來源資源分享) 才能與 Msty 配合使用",
+        "successMessage": {
+          "summary": "@:success",
+          "addDetail": "已新增模型提供商 {providerName}",
+          "updateDetail": "已更新模型提供商 {providerName}"
+        },
+        "errorMessage": {
+          "summary": "@:error",
+          "addDetail": "新增提供方失敗",
+          "updateDetail": "更新提供方失敗"
+        },
+        "bedrockLongTermCredsWarning": "不建議使用 Amazon Bedrock 的長期憑證。",
+        "awsRegionExample": "例如 us-east-1"
+      },
+      "toggleVisibility": {
+        "errorMessage": {
+          "detail": "更新提供方可見性失敗"
+        },
+        "successMessage": {
+          "detail": "{provider}現在{visibility}"
+        }
+      },
+      "modelsCount": "模型數量",
+      "showInSelector": "在模型選擇器中顯示",
+      "availableModels": "可用模型",
+      "noModels": "此提供方無可用模型",
+      "modelUpdated": "模型更新成功",
+      "modelUpdateError": "模型更新失敗",
+      "manageProviders": "管理",
+      "addNewProvider": "新增"
+    },
+    "sidecarLocalAIProxyEndpoint": {
+      "title": "@:remoteToolsConnector.title 代理 @:localAI 端點",
+      "description": "確保 @:remoteToolsConnector.title 正在執行，並且可以通過通道在提供的 URL 存取。複製並貼上包含 Token 和 URL 的完整通道連接資訊。"
+    },
+    "mstyRemoteEndpoint": {
+      "description": "確保 Msty Desktop 正在執行並啟用了遠端連接。",
+      "learnMore": "瞭解如何啟用遠端連接"
+    },
+    "mstyLocalEndpoint": {
+      "description": "此服務只要套用程式本身啟動並執行就會執行。如果 本地AI服務 埠發生更改，您可能需要更新埠號。否則，最好保持原樣。"
+    },
+    "ollamaRemoteEndpoint": {
+      "description": "使用自託管 Ollama 時，請確保 Ollama 正在執行，並且可以通過提供的 URL 存取。啟動 Ollama 服務時，必須將 https://msty.studio 新增到允許的來源。",
+      "placeholder": "例如 http://localhost:11434 或 https://ollama.com"
+    },
+    "mlxEndpoint": {
+      "description": "此提供方用於在 Apple Silicon Mac 上執行 MLX 模型。大多數情況下，您不需要更改預設端點。如果這樣做，請確保 MLX 服務正在執行並且可以通過提供的 URL 存取。"
+    },
+    "localModels": {
+      "title": "@:localAI模型",
+      "noCompatibleProviders": "沒有相容的提供方可用於管理本地模型。請新增至少一個 Msty Remote 或 Ollama Remote 類型的提供方以使用本地模型。",
+      "activeDownloads": "{count}個正在下載 | {count}個正在下載",
+      "featured": {
+        "title": "精選模型"
+      },
+      "installed": {
+        "title": "已安裝模型"
+      },
+      "customOllamaModelPlaceholder": "或通過標籤安裝模型，例如 {example}",
+      "alreadyInstalledErrorMessage": {
+        "summary": "已安裝",
+        "detail": "模型 {modelName} 已安裝"
+      },
+      "abortInstalling": {
+        "title": "中斷安裝 {modelName}",
+        "successMessage": {
+          "detail": "{modelName}安裝已中斷"
+        }
+      },
+      "deleteConfirmation": {
+        "header": "卸載模型",
+        "message": "您確定要卸載 {modelName} 嗎？",
+        "successMessage": {
+          "detail": "模型已移除"
+        },
+        "errorMessage": {
+          "detail": "卸載模型失敗"
+        }
+      },
+      "modelInstall": {
+        "successMessage": {
+          "detail": "模型 {modelName} 已準備就緒"
+        },
+        "errorMessage": {
+          "detail": "安裝模型 {modelName} 失敗",
+          "newerVersion": "{modelName} 需要更新版本的本地AI服務。請從 設定 > 本地AI服務 > 服務版本 > ... > 強制更新本地AI服務 進行更新"
+        }
+      },
+      "ollamaModels": {
+        "title": "Ollama 模型"
+      },
+      "huggingfaceModels": {
+        "title": "Hugging Face 模型",
+        "searchPlaceholder": "按作者、模型搜尋，或貼上 Hugging Face 倉庫 URL",
+        "searchPlaceholderAlt": "按名稱、作者或 URL 查找模型。或從下方的模型系列開始。",
+        "searching": "正在搜尋模型..."
+      }
+    },
+    "mlxModels": {
+      "title": "MLX 模型",
+      "notAppleSilicon": "MLX 模型僅支援 Apple Silicon Mac (M1, M2, M3, M4 等)。您當前的設備不相容。",
+      "noCompatibleProviders": "沒有可用的相容 MLX 提供方。請新增至少一個 MLX 提供方以使用 MLX 模型。",
+      "activeDownloads": "{count}個活躍 MLX 下載 | {count}個活躍 MLX 下載",
+      "learnMore": "瞭解更多關於 MLX",
+      "featured": {
+        "title": "精選 MLX 模型"
+      },
+      "installed": {
+        "title": "已安裝 MLX 模型"
+      },
+      "alreadyInstalledErrorMessage": {
+        "summary": "已安裝",
+        "detail": "MLX 模型 {modelName} 已安裝"
+      },
+      "deleteConfirmation": {
+        "header": "卸載 MLX 模型",
+        "message": "您確定要卸載 {modelName} 嗎？",
+        "successMessage": {
+          "detail": "MLX 模型已移除"
+        },
+        "errorMessage": {
+          "detail": "卸載 MLX 模型失敗"
+        }
+      },
+      "modelInstall": {
+        "successMessage": {
+          "detail": "MLX 模型 {modelName} 已準備就緒"
+        },
+        "errorMessage": {
+          "detail": "安裝 MLX 模型 {modelName} 失敗"
+        },
+        "abortedMessage": {
+          "detail": "MLX 模型 {modelName} 下載已中斷"
+        }
+      },
+      "mlxCommunityModels": {
+        "title": "MLX 社區模型",
+        "searchTitle": "搜尋 MLX 社區模型",
+        "searchPlaceholder": "從 HuggingFace mlx-community 搜尋 MLX 模型",
+        "searchPlaceholderAlt": "從 HuggingFace 查找 MLX 優化模型。或從下方的模型系列開始。",
+        "searching": "正在搜尋 MLX 模型..."
+      }
+    }
+  },
+  "stickyPrompt": {
+    "title": "置頂提示詞",
+    "disableStickyPrompt": "停用置頂提示詞",
+    "editDialog": {
+      "title": "編輯置頂提示詞",
+      "description": "當‘置頂’提示詞被固定時，它會被新增到每條新訊息的開頭，同時忽略之前的任何訊息。這有效地使對話專注於一個活動上下文。系統提示詞始終包含在上下文中。"
+    }
+  },
+  "contextShield": {
+    "title": "@:context保護盾",
+    "enableContextShield": "啟用@:contextShield.title",
+    "enableContextShieldWithSplitsSync": "啟用@:contextShield.title。按住 Option/Alt 以對所有同步拆分套用@:contextShield.title。",
+    "removeContextShield": "移除@:contextShield.title",
+    "removeContextShieldWithSplitsSync": "停用@:contextShield.title。按住 Option/Alt 以從所有同步拆分中移除@:contextShield.title。",
+    "breakContext": "中斷@:context",
+    "customContext": "自訂@:context",
+    "generateContextSummary": "生成@:context@:summary",
+    "contextSummary": "@:context@:summary",
+    "regenerateContextSummary": "重新生成@:context@:summary",
+    "clearContextSummary": "清除@:context@:summary",
+    "summaryDescriptionInfoHeader": "此摘要由上方對話的上下文生成，並在生成此保護盾下方的新訊息時包含在上下文中。",
+    "contextShieldWithSummary": "帶@:summary的@:contextShield.title"
+  },
+  "data": "數據",
+  "advancedConfigurations": "進階配置",
+  "applicationInfo": {
+    "title": "套用資訊",
+    "appVersion": {
+      "title": "套用版本",
+      "description": "定期檢查最新更新，並在有新更新可用時通知您。您也可以手動檢查更新，然後自動安裝任何可用更新。",
+      "checkForUpdates": "檢查並套用更新",
+      "enableAutoUpdates": "啟用自動更新",
+      "disableAutoUpdates": "停用自動更新",
+      "viewChangelog": "查看更新記錄",
+      "checkingForUpdates": "正在檢查更新...",
+      "errorCheckingUpdates": "檢查更新失敗",
+      "autoUpdatesEnabled": "自動更新已啟用",
+      "autoUpdatesDisabled": "自動更新已停用",
+      "updateAvailable": "新更新可用",
+      "updateDownloading": "正在下載更新...",
+      "noUpdatesAvailable": "您使用的是最新版本"
+    },
+    "modelsInfo": {
+      "title": "模型資訊",
+      "description": "更新您的本地模型中繼資料。此資訊包括每個模型的詳細資訊，但不包括模型檔本身。這適用於本機存放區和線上模型。",
+      "fetchLatest": "取得最新模型資訊",
+      "updated": "模型資訊已成功更新",
+      "errorUpdating": "更新模型資訊失敗"
+    },
+    "appSettings": {
+      "title": "套用設定",
+      "description": "將套用設定重設為預設值有助於解決潛在問題。這將恢復預設使用者首選項，如外觀和模型路徑，但不會刪除任何資料，包括聊天或下載/匯入的模型。",
+      "resetApp": "重設套用設定",
+      "resetConfirm": {
+        "header": "重設套用設定",
+        "message": "您確定要將所有套用設定重設為預設值嗎？這將恢復預設首選項，但不會刪除您的資料。"
+      },
+      "resetSuccess": "套用設定重設成功",
+      "resetError": "重設套用設定失敗"
+    },
+    "dataPaths": {
+      "title": "資料路徑",
+      "description": "所有資料，包括模型、對話、設定和記錄，都本機存放區在您的設備上。僅當您熟悉套用程式的檔結構時才修改這些目錄的內容。",
+      "appData": "套用資料",
+      "appLogs": "套用記錄",
+      "openInFinder": "在檔案管理員中打開"
+    },
+    "helpAndDiscussions": {
+      "title": "幫助與討論",
+      "description": "在 Discord 上連接我們的社區以取得支持、分享您的回饋並保持最新狀態。",
+      "sayHi": "打個招呼！",
+      "viewDocs": "查看文檔"
+    }
+  },
+  "logViewer": {
+    "title": "記錄檢視器",
+    "description": "即時查看和分析套用程式記錄。使用篩檢程式和搜尋來高效地排查問題。",
+    "searchPlaceholder": "搜尋記錄...",
+    "refresh": "重新整理記錄",
+    "autoRefreshOn": "停止自動重新整理",
+    "autoRefreshOff": "啟用自動重新整理",
+    "pause": "停止自動滾動",
+    "resume": "恢復自動滾動",
+    "copy": "複製記錄到剪切板",
+    "download": "下載記錄",
+    "clearTemporarily": "清除記錄顯示",
+    "clearPermanently": "清除記錄檔",
+    "showAllLogs": "顯示所有記錄",
+    "clearPermanentlyConfirmation": {
+      "header": "清除記錄檔",
+      "message": "您確定要清除記錄檔嗎？這將永久刪除所有記錄條目。"
+    },
+    "loading": "正在載入記錄...",
+    "noLogs": "無可用記錄",
+    "noMatchingLogs": "無記錄匹配當前篩檢程式",
+    "totalLines": "{count}行總計 | {count}行總計",
+    "filteredLines": "{count}行篩選 | {count}行篩選",
+    "copiedToClipboard": "記錄已複製到剪切板",
+    "downloaded": "記錄下載成功",
+    "clearedPermanently": "記錄檔清除成功",
+    "errorLoading": "載入記錄失敗",
+    "errorCopying": "複製記錄失敗",
+    "errorDownloading": "下載記錄失敗",
+    "errorClearing": "清除記錄失敗",
+    "levels": {
+      "all": "所有級別",
+      "error": "錯誤",
+      "warn": "警告",
+      "info": "信息",
+      "debug": "調試"
+    }
+  },
+  "notifications": {
+    "title": "通知",
+    "description": "查看和管理套用程式通知，包括錯誤、警告和資訊事件。",
+    "searchPlaceholder": "搜尋通知...",
+    "searchingAllLogs": "正在搜尋資料庫中的所有通知",
+    "refresh": "重新整理通知",
+    "autoRefreshOn": "自動重新整理已啟用",
+    "autoRefreshOff": "啟用自動重新整理",
+    "copy": "複製全部到剪切板",
+    "copyLog": "複製通知",
+    "download": "下載通知",
+    "clearPermanently": "清除所有通知",
+    "clearPermanentlyConfirmation": {
+      "header": "清除通知",
+      "message": "您確定要永久刪除所有通知嗎？此操作無法撤銷。"
+    },
+    "loading": "正在載入通知...",
+    "loadingMore": "正在載入更多...",
+    "endOfList": "列表末尾",
+    "noLogs": "無可用通知",
+    "totalLogs": "{count}個通知 | {count}個通知",
+    "displayedLogs": "顯示 {count} 個",
+    "copiedToClipboard": "通知已複製到剪切板",
+    "downloaded": "通知下載成功",
+    "clearedPermanently": "通知清除成功",
+    "deleted": "通知刪除成功",
+    "errorLoading": "載入通知失敗",
+    "errorCopying": "複製通知失敗",
+    "errorDownloading": "下載通知失敗",
+    "errorClearing": "清除通知失敗",
+    "errorDeleting": "刪除通知失敗",
+    "purge": {
+      "label": "清理通知",
+      "olderThan1Day": "超過 1 天",
+      "olderThan7Days": "超過 7 天",
+      "olderThan15Days": "超過 15 天",
+      "olderThan30Days": "超過 30 天",
+      "all": "全部",
+      "confirmHeader": "清理通知",
+      "confirmMessageDays": "您確定要刪除超過 {days} 天的通知嗎？此操作無法撤銷。",
+      "purge": "清理",
+      "purged": "通知清理成功",
+      "errorPurging": "清理通知失敗"
+    },
+    "levels": {
+      "all": "所有級別",
+      "error": "錯誤",
+      "warn": "警告",
+      "info": "信息"
+    }
+  },
+  "sidebar": {
+    "expandGroup": "展開{group}",
+    "collapseGroup": "折疊{group}",
+    "showExtraItems": "顯示額外專案",
+    "hideExtraItems": "隱藏額外專案",
+    "groups": {
+      "modelsPrompts": "模型與提示詞",
+      "personasTools": "角色與工具",
+      "knowledgeInsights": "知識與洞察",
+      "system": "系統"
+    },
+    "appUpdater": {
+      "version": "版本 {version}",
+      "restartToApply": "重啟以套用更新",
+      "restart": "立即重啟",
+      "downloading": "正在下載更新...",
+      "viewChangelog": "查看更新記錄",
+      "openingChangelog": "正在打開更新記錄...",
+      "errorHint": "更新錯誤 - 點擊查看詳情",
+      "readyHint": "更新就緒 - 重啟以套用",
+      "downloadingHint": "正在下載更新... {percent}%",
+      "errorDialog": {
+        "header": "更新錯誤",
+        "message": "更新時發生錯誤：{error}",
+        "downloadManually": "手動下載"
+      }
+    }
+  },
+  "showInNativeFileManager": {
+    "mac": "在訪達中顯示",
+    "win": "在檔資源管理器中顯示",
+    "lin": "在檔案管理員中顯示"
+  },
+  "settings": {
+    "title": "設定",
+    "general": "常規",
+    "defaultPrompts": "預設提示詞",
+    "prompts": {
+      "description": "這些提示詞決定了標題生成、搜尋查詢構建、知識檢索和上下文總結的方式。更改將儲存到此設備的全域設定（主要資料庫）中，並套用於所有工作空間（而非每個工作空間獨立）。",
+      "availablePrompts": "可用提示詞",
+      "customized": "已自訂",
+      "customizedCount": "{count} 個已自訂",
+      "modified": "已修改",
+      "usingCustom": "使用自訂",
+      "usingDefault": "使用預設",
+      "clickToEdit": "點擊以編輯提示詞",
+      "variables": "變數",
+      "lastModified": "最後修改",
+      "selectPrompt": "選擇要自訂的提示詞",
+      "clearContent": "清除內容",
+      "resetToDefault": "重設為預設",
+      "insertFromLibrary": "從庫中插入",
+      "saveChanges": "儲存更改",
+      "discardChanges": "放棄更改",
+      "categories": {
+        "generation": "內容生成",
+        "search": "搜尋與合成",
+        "analysis": "分析與提取"
+      }
+    },
+    "licenseAndAccess": "許可證與存取",
+    "fontSize": "字體@:size",
+    "teams": "團隊",
+    "appearance": "外觀",
+    "setupService": "設定{service}",
+    "dataBackup": {
+      "title": "@:data備份",
+      "description": "管理您的資料備份設定。您可以匯出資料進行備份、清除資料或從備份檔案恢復。"
+    },
+    "dataBackupReminderInterval": {
+      "title": "@:data備份提醒間隔",
+      "description": "提醒您備份資料的頻率。"
+    },
+    "dataMigrate": {
+      "action": "遷移",
+      "title": "Studio 遷移",
+      "itemsToMigrate": {
+        "label": "步驟 2：選擇要遷移的專案",
+        "action": "選擇專案"
+      },
+      "pointsToRemember": {
+        "activeWorkspace": "您可以將提示詞庫提示詞、遠端模型提供方、對話和附件匯入到您當前的活動工作空間中。如果要匯入到不同的工作空間，請先切換到該工作空間。",
+        "remoteModelProviders": "遷移遠端模型提供方不會遷移 API 金鑰，必須重新輸入。Studio 可能不支援某些舊版模型。",
+        "attachmentsMigration": "如果遷移附件，請先壓縮附件資料夾。您可以在遷移資料庫後單獨遷移附件，也可以與資料庫一起遷移。"
+      },
+      "databaseMigration": {
+        "title": "資料庫遷移",
+        "label": "步驟 1：選擇 Msty App 1.x 資料庫檔",
+        "action": "拖放您的 Msty 資料庫檔"
+      },
+      "attachmentsMigration": {
+        "title": "附件遷移",
+        "migrate": "單獨遷移",
+        "label": "步驟 3：新增壓縮的附件資料夾",
+        "success": "附件遷移成功",
+        "error": "附件遷移失敗",
+        "action": "拖放您壓縮的附件資料夾"
+      },
+      "missingDataWarning": {
+        "description": "請選擇一個資料庫檔和至少一個要遷移的表",
+        "title": "缺失數據"
+      },
+      "description": "從 Msty App 1.x 遷移數據到 Studio。匯入的資料不會覆蓋現有資料。",
+      "successMessage": "成功遷移{item}",
+      "errorMessage": "遷移{item}失敗",
+      "migrationInProgress": "遷移進行中...",
+      "migrationComplete": "{item}遷移完成",
+      "migrationFail": "{item}遷移失敗",
+      "migratingItem": "正在遷移{item}...",
+      "migrationError": {
+        "title": "遷移錯誤",
+        "action": "查看詳情",
+        "message": "訊息",
+        "cause": "原因"
+      }
+    },
+    "colorPreference": "顏色偏好",
+    "accentColor": "強調色",
+    "dark": "深色",
+    "light": "淺色",
+    "default": "預設",
+    "system": "跟隨系統",
+    "baseColor": "基礎色",
+    "emerald": "祖母綠",
+    "lime": "萊姆綠",
+    "green": "綠色",
+    "red": "紅色",
+    "orange": "橙色",
+    "amber": "琥珀色",
+    "yellow": "黃色",
+    "teal": "藍綠色",
+    "cyan": "青色",
+    "sky": "天藍色",
+    "indigo": "靛藍色",
+    "violet": "紫羅蘭",
+    "purple": "紫色",
+    "fuchsia": "品紅",
+    "pink": "粉色",
+    "rose": "玫瑰紅",
+    "slate": "板岩灰",
+    "gray": "灰色",
+    "zinc": "鋅灰",
+    "stone": "石灰",
+    "sandy": "沙色",
+    "lighter": "更淺",
+    "codeTheme": "代碼主題",
+    "rtlSupport": {
+      "title": "從右到左語言支援",
+      "sectionDescription": "為阿拉伯語、希伯來語和波斯語等語言啟用從右到左的佈局。切換時整個工作空間將立即更新。",
+      "toggleLabel": "啟用 RTL 佈局",
+      "enabledHint": "從右到左佈局在整個套用程式中已啟動。",
+      "disabledHint": "套用程式當前使用從左到右佈局。"
+    },
+    "miniMap": {
+      "title": "迷你地圖",
+      "description": "啟用帶有分支預覽的內嵌迷你地圖訊息導航器。停用時，使用更簡單的頂部/底部導航器。"
+    },
+    "language": {
+      "sectionTitle": "語言與當地語系化",
+      "sectionDescription": "切換介面語言，預覽開發者模式，或匯入臨時當地語系化檔。如果您想貢獻翻譯，請存取 https://github.com/cloudstack-llc/msty-studio-i18n",
+      "localeLabel": "語言",
+      "downloadTemplate": "下載範本",
+      "downloadBuiltInLocale": "下載此內置當地語系化 JSON 檔案。",
+      "downloadCustomLocale": "下載您當前匯入的自訂當地語系化檔案。",
+      "downloadDeveloperTemplate": "下載基於基礎當地語系化的空範本。",
+      "importLocale": "匯入當地語系化檔案",
+      "importLocaleHint": "匯入的當地語系化檔案僅持續到您重啟或重新整理套用程式為止。",
+      "importSuccessSummary": "當地語系化檔案已匯入",
+      "importSuccessDetail": "現在使用 {code}。檢查介面以確認翻譯。",
+      "importError": "我們無法匯入該當地語系化檔。請確保它是基於範本的有效 JSON。",
+      "developerMode": {
+        "label": "開發者模式"
+      }
+    },
+    "security": {
+      "title": "安全",
+      "subtitle": "配置套用程式的安全設定"
+    },
+    "webSecurity": {
+      "title": "停用網路安全",
+      "description": "這可能有助於您解決一些與 CORS (跨來源資源分享) 相關的問題。但是，不建議這樣做，這可能會使您的套用程式面臨安全風險。僅在您知道自己在做什麼的情況下停用它。您必須重啟套用才能使此設定生效。",
+      "applyAndRestart": "套用並重啟"
+    },
+    "fontStyle": {
+      "title": "字體樣式",
+      "galaxyFarAway": "Galaxy Far Away",
+      "everythingEverywhere": "Everything Everywhere",
+      "homeAlone": "Home Alone",
+      "lordOfTheLoops": "Lord of the Loops"
+    },
+    "renderingModules": {
+      "title": "渲染模組",
+      "selectPlaceholder": "@:select渲染模組"
+    },
+    "remoteToolsConnector": {
+      "description": "允許 Msty Studio Web 連接到此設備以執行遠端工具和存取本地模型。此服務必須正在執行以允許遠端連接。",
+      "allowRemoteToolsConnection": "啟用服務",
+      "connectionToken": {
+        "title": "連接 Token",
+        "rememberToken": "記住 Token",
+        "placeholder": "輸入強連接 Token",
+        "description": "此 Token 用於在遠端連接時驗證 Msty Studio 與此套用程式之間的連接。您可以隨時重新生成它以使之前的 Token 無效。請確保使用強 Token 並保密。",
+        "successMessage": {
+          "detail": "遠端服務現已啟動"
+        },
+        "errorMessage": {
+          "summary": "啟用連接器出錯",
+          "detail": "啟用遠端服務失敗。請檢查記錄以取得更多詳細資訊"
+        },
+        "copyConnectionInfo": "複製本地 URL",
+        "copyTunnelConnectionInfo": "複製通道 URL",
+        "stopSuccessMessage": {
+          "detail": "遠端服務現已停用"
+        }
+      },
+      "enableTunneling": "啟用通道 (實驗性)"
+    },
+    "copyLocalURL": "複製本地 URL",
+    "localAI": {
+      "notInstalled": {
+        "description": "設定@:localAIService以在您的設備上本地執行 AI 模型。"
+      },
+      "modelsLocation": {
+        "title": "模型位置",
+        "description": "配置您的本地AI服務模型儲存位置。"
+      },
+      "existingModels": {
+        "title": "使用現有模型",
+        "description": "使用您已有的模型，無需再次下載。"
+      },
+      "serviceConfigurations": {
+        "title": "@:service配置",
+        "description": "這些配置在@:localAIService啟動時套用。儲存任何更改後，@:localAIService將自動重啟。",
+        "configurePortNumber": {
+          "title": "配置埠號",
+          "description": "@:localAIService的埠號。留空以使用預設值。"
+        },
+        "maximumParallelChats": {
+          "title": "最大並行聊天數",
+          "description": "最大併發聊天會話數（使用拆分模式時）。"
+        },
+        "maximumLoadedModels": {
+          "title": "最大載入模型數",
+          "description": "同時載入的最大 LLM 數量。將更多模型保留在記憶體中可加快初始回應速度，但會佔用更多系統資源。"
+        },
+        "enableNetworkAccess": {
+          "title": "啟用網路存取",
+          "description": "允許網路上的其他設備通過此設備的 IP 位址存取此@:localAIService。"
+        },
+        "allowedNetworkOrigins": {
+          "title": "允許的網路來源",
+          "description": "在此處列出允許的網路來源（逗號分隔）。每個條目必須以 http:// 或 https:// 開頭。使用 * 允許所有來源。",
+          "placeholder": "例如 https://msty.studio, http://localhost:3000, *"
+        },
+        "allowMstyStudioAccess": {
+          "title": "允許從 Msty Studio 存取",
+          "description": "允許從 Msty Studio Web 連接到此套用以存取@:localAIService{'.'} "
+        },
+        "captureServiceLogs": {
+          "title": "捕獲@:service記錄",
+          "description": "啟用記錄記錄以捕獲服務資料進行調試。僅在必要時使用此選項。"
+        },
+        "advancedConfiguration": {
+          "description": "輸入有效的 JSON 以設定@:localAIService的環境變數。"
+        },
+        "unsavedChanges": {
+          "message": "您在@:localAIService配置中有未儲存的更改。儲存後，@:localAIService將使用新配置重啟。",
+          "saveChanges": "儲存更改並重啟服務",
+          "successMessage": {
+            "detail": "@:localAIService配置已儲存且服務已重啟"
+          },
+          "errorMessage": {
+            "detail": "儲存@:localAIService配置失敗。請檢查記錄以取得更多詳細資訊。"
+          }
+        }
+      },
+      "modelConfigurations": {
+        "title": "@:model配置",
+        "description": "這些配置在聊天會話期間套用於所有模型。",
+        "keepAliveTimeout": {
+          "title": "模型保活超時",
+          "description": "模型未使用時從記憶體中卸載的時間（分鐘）。"
+        },
+        "advancedConfiguration": {
+          "description": "輸入有效的 JSON 以在聊天會話期間向模型傳遞額外參數。"
+        },
+        "unsavedChanges": {
+          "message": "您在@:settings.localAI.modelConfigurations.title中有未儲存的更改。請確保在開始新聊天會話前儲存它們。",
+          "successMessage": {
+            "detail": "@:settings.localAI.modelConfigurations.title已儲存"
+          },
+          "errorMessage": {
+            "detail": "儲存@:settings.localAI.modelConfigurations.title失敗。請檢查記錄以取得更多詳細資訊。"
+          }
+        }
+      },
+      "openSettings": "打開本地AI服務設定",
+      "manageModels": {
+        "title": "管理本地AI服務模型",
+        "description": "流覽、安裝和管理用於本地推理的 AI 模型。",
+        "openModelHub": "打開本地AI服務模型中心"
+      }
+    },
+    "mlx": {
+      "notInstalled": {
+        "description": "設定@:mlxService以在您的 Apple Silicon Mac 上執行優化的 AI 模型。"
+      },
+      "modelsLocation": {
+        "title": "模型位置",
+        "description": "配置您的 MLX 模型儲存位置。"
+      },
+      "existingModels": {
+        "title": "使用現有模型",
+        "description": "使用您已有的模型，無需再次下載。"
+      },
+      "openSettings": "打開 MLX 設定",
+      "manageModels": {
+        "title": "管理 MLX 模型",
+        "description": "流覽、安裝和管理針對 Apple Silicon 優化的 MLX 模型。",
+        "openModelHub": "打開 MLX 模型中心"
+      },
+      "compatibility": {
+        "title": "系統相容性",
+        "description": "檢查您的系統是否與 MLX 相容。",
+        "checkAgain": "再次檢查",
+        "status": {
+          "notChecked": "未檢查",
+          "compatible": "相容",
+          "notCompatible": "不相容"
+        },
+        "requirements": {
+          "title": "MLX 要求：",
+          "appleSilicon": "Apple Silicon Mac (M1, M2, M3, M4)",
+          "macOS13": "macOS 13.0 或更高版本",
+          "unifiedMemory": "統一記憶體架構"
+        }
+      }
+    }
+  },
+  "mlxService": "MLX 服務",
+  "settingsAndConfigs": "設定與配置",
+  "prompts": "提示詞",
+  "apiKeys": "API 金鑰",
+  "workspaces": {
+    "createNewWorkspace": "建立新工作空間",
+    "switchWorkspace": "切換工作空間",
+    "switchToCustomWorkspace": "切換到 {workspaceName} 工作空間",
+    "hideWorkspaceTray": "隱藏工作空間託盤",
+    "showWorkspaceTray": "顯示工作空間託盤",
+    "switchAction": {
+      "successMessage": {
+        "summary": "工作空間已切換！",
+        "detail": "{workspaceName} 現在是活動工作空間"
+      }
+    },
+    "deleteWorkspace": "刪除工作空間",
+    "workspaceIsActive": "工作空間 {workspaceName} 處於活動狀態",
+    "currentActiveWorkspace": "您當前的活動工作空間是：{workspaceName}",
+    "workspaceForm": {
+      "newTitle": "新工作空間",
+      "editTitle": "編輯工作空間",
+      "workspaceName": "工作空間名稱",
+      "whatToCopy": "從 {activeWorkspace} 工作空間複製什麼？",
+      "createAndSwitch": "建立並切換",
+      "duplicateWorkspaceName": "工作空間名稱已存在",
+      "invalidWorkspaceName": "無效或重複的工作空間名稱",
+      "updateSuccessMessage": {
+        "summary": "@:success",
+        "detail": "工作空間已更新"
+      },
+      "updateErrorMessage": {
+        "summary": "@:error",
+        "detail": "更新工作空間失敗"
+      },
+      "createSuccessMessage": {
+        "summary": "@:success",
+        "detail": "工作空間已建立"
+      },
+      "createErrorMessage": {
+        "summary": "@:error",
+        "detail": "建立工作空間失敗"
+      }
+    },
+    "deleteConfirmation": {
+      "header": "刪除工作空間",
+      "message": "您確定要刪除 {workspaceName} 嗎？與此工作空間關聯的所有資料都將被刪除。此操作無法撤銷。",
+      "downloadWorkspaceData": "@:download工作空間@:data",
+      "successMessage": {
+        "detail": "工作空間 {workspaceName} 已刪除"
+      },
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "刪除工作空間失敗"
+      }
+    },
+    "exportWorkspace": {
+      "title": "@:export工作空間",
+      "successMessage": {
+        "summary": "@:success",
+        "detail": "工作空間 {workspaceName} 資料已匯出為 {fileName}"
+      },
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "匯出工作空間 {workspaceName} 失敗"
+      }
+    },
+    "importWorkspace": {
+      "title": "@:import工作空間",
+      "dragAndDropMessage": "拖放壓縮的 Msty 工作空間檔案以匯入並建立新工作空間。如果名稱重複，匯入的工作空間將被重命名。您可以稍後更改它。",
+      "successMessage": {
+        "summary": "@:success",
+        "detail": "工作空間 {workspaceName} 已匯入"
+      },
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "匯入工作空間失敗"
+      }
+    }
+  },
+  "attachments": {
+    "title": "附件",
+    "documents": "文檔",
+    "images": "圖像",
+    "webpages": "網頁",
+    "youTubeLinks": "YouTube 連結",
+    "dropThem": "放下它們！",
+    "selectAll": "全選",
+    "deselectAll": "取消全選",
+    "dragAnDropHere": "將{attachmentType}拖放到此處",
+    "orClickToBrowse": "或點擊流覽",
+    "addDocumentTypes": "新增 {documentTypes} 以及其他一些代碼檔",
+    "addImageTypes": "新增 .png, .jpg, 或 jpeg 圖像",
+    "dragAndDropOrBrowseMore": "拖放或流覽更多",
+    "commaSeparatedUrls": "或貼上逗號分隔的 URL",
+    "manageTooltip": "點擊管理已附加的{attachmentType}",
+    "modelMayNotSupportImages": "所選模型可能不支援圖像附件。",
+    "documentsAttachedCount": "{count} 個文檔已附加 | {count} 個文檔已附加",
+    "imagesAttachedCount": "{count} 個圖像已附加 | {count} 個圖像已附加",
+    "webpagesAttachedCount": "{count} 個網頁已附加 | {count} 個網頁已附加",
+    "webpageLinks": "網頁連結 | 網頁連結",
+    "holdKeyToShareWithSyncedSplits": "按住 {key} 以與同步拆分共用",
+    "youTubeLinksAttachedCount": "{count} 個 YouTube 連結已附加 | {count} 個 YouTube 連結已附加",
+    "dropFiles": {
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "附加檔失敗"
+      }
+    },
+    "dropWebpages": {
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "附加網頁失敗"
+      }
+    },
+    "dropYouTubeLinks": {
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "匯入 YouTube 連結資訊失敗。{errorMessage}"
+      }
+    },
+    "detachAll": {
+      "title": "全部分離",
+      "confirm": {
+        "header": "全部分離",
+        "message": "您確定要分離所有{attachmentType}嗎？這些{attachmentType}將不再在所有拆分的對話中可用。",
+        "acceptLabel": "@:delete"
+      },
+      "maxResult": {
+        "title": "最大結果"
+      },
+      "successMessage": {
+        "detail": "附件已分離"
+      }
+    }
+  },
+  "jinaAPI": {
+    "manageJinaAPIKeys": "管理 Jina API 金鑰",
+    "jinaApiKeyRequired": "需要有效的 Jina API 金鑰才能使用此功能。您可以存取以下連結免費取得一個：",
+    "willUseJina": {
+      "description": "您當前已新增 {count} 個 Jina API 金鑰。您可以新增更多金鑰，Msty 將隨機選擇一個有效的金鑰用於請求。"
+    },
+    "jinaAPIKeyForm": {
+      "newTitle": "新 Jina API 金鑰",
+      "editTitle": "編輯 Jina API 金鑰",
+      "availableKeys": "可用金鑰",
+      "reVerifyKey": "金鑰狀態為{status}。點擊重新驗證",
+      "verifyKeyAndAdd": "驗證金鑰並新增",
+      "newDescription": "新增新的 Jina API 金鑰以用於 Jina Reader 和 Search 端點。您可以新增多個金鑰並驗證它們以確保有效。使用金鑰時，Msty 將隨機選擇一個有效的金鑰用於請求。",
+      "keyIsGood": {
+        "summary": "一切正常！",
+        "detail": "金鑰似乎有效且可供使用"
+      },
+      "successMessage": {
+        "summary": "@:success",
+        "detail": "Jina API 金鑰已新增"
+      },
+      "errorMessage": {
+        "summary": "錯誤{status}！",
+        "detail": "新增 Jina API 金鑰失敗。請檢查 API 金鑰並確保其有效。"
+      }
+    }
+  },
+  "rtd": {
+    "title": "即時資料",
+    "contexts": "@:rtd.title上下文",
+    "enableRTD": "配置@:rtd.title",
+    "removeSource": {
+      "successMessage": {
+        "detail": "來源已移除"
+      },
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "移除來源失敗"
+      }
+    },
+    "updateSource": {
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "更新來源失敗"
+      }
+    },
+    "searchProvider": "搜尋提供方",
+    "jina": "Jina",
+    "useRemoteConnector": "使用@:remoteToolsConnector.title",
+    "noSources": "無可用來源",
+    "settings": {
+      "maxResult": {
+        "title": "最大結果"
+      },
+      "saveAsDefaultProvider": {
+        "title": "將 {providerName} 儲存為預設搜尋提供方",
+        "successMessage": {
+          "summary": "就是 {providerName}！",
+          "detail": "{providerName} 現在是預設搜尋提供方"
+        }
+      },
+      "autoWithFallback": "自動（帶回退）",
+      "google": "Google",
+      "brave": "Brave",
+      "ecosia": "Ecosia",
+      "customSearchQuery": {
+        "title": "自訂搜尋查詢",
+        "placeholder": "此查詢將用於搜尋。留空以使用提示詞作為查詢"
+      },
+      "limitByDomain": {
+        "title": "按功能變數名稱限制",
+        "placeholder": "例如 reddit.com 或 gov 或 (site:reddit.com OR site:gov)",
+        "commaDelimitedPlaceholder": "輸入逗號分隔的功能變數名稱，例如 reddit.com,wikipedia.com"
+      },
+      "extraOperators": {
+        "title": "額外運算子"
+      },
+      "dateRange": {
+        "title": "搜尋日期範圍",
+        "placeholder": "此日期之後 - 此日期之前"
+      },
+      "successMessage": {
+        "detail": "@:rtd.title已啟用"
+      },
+      "types": {
+        "api": "API",
+        "rtc": "@:remoteToolsConnector.title"
+      }
+    },
+    "useJinaLabel": "使用@:rtd.jina",
+    "google": {
+      "useLabel": "使用@:rtd.settings.google",
+      "apiKey": {
+        "placeholder": "@:rtd.settings.google @:apiKey"
+      },
+      "cseIdLabel": "自訂搜尋引擎 ID",
+      "cseIdPlaceholder": "@:rtd.settings.google @:rtd.google.cseIdLabel"
+    },
+    "brave": {
+      "useLabel": "使用@:rtd.settings.brave",
+      "resultFilter": "過濾結果",
+      "apiKey": {
+        "placeholder": "@:rtd.settings.brave @:apiKey"
+      }
+    },
+    "searXng": {
+      "title": "SearXNG",
+      "engines": {
+        "title": "引擎",
+        "placeholder": "逗號分隔的引擎清單，例如 google, brave 等。"
+      },
+      "extraParams": {
+        "title": "額外參數",
+        "placeholder": "新增額外參數。這應該是一個有效的 JSON 物件。"
+      },
+      "notice": "您的 SearXNG 伺服器必須啟用 JSON 且通過 HTTPS 提供服務。有關某些瀏覽器上的 HTTP 解決方法，請查看我們的文檔 https://docs.msty.studio",
+      "useLabel": "使用@:rtd.searXng.title"
+    },
+    "tavily": {
+      "title": "Tavily",
+      "useLabel": "使用@:rtd.tavily.title",
+      "searchTopic": {
+        "title": "搜尋主題",
+        "placeholder": "搜尋類別",
+        "general": "常規",
+        "news": "新聞",
+        "finance": "金融"
+      },
+      "apiKey": {
+        "placeholder": "輸入@:rtd.tavily.title @:apiKey"
+      },
+      "searchDepth": {
+        "title": "搜尋深度",
+        "placeholder": "搜尋深度",
+        "advanced": "進階",
+        "basic": "基礎"
+      },
+      "timeRange": {
+        "title": "時間範圍",
+        "placeholder": "從當前日期回溯的時間範圍"
+      }
+    },
+    "exa": {
+      "title": "Exa",
+      "useLabel": "使用@:rtd.exa.title",
+      "apiKey": {
+        "placeholder": "輸入@:rtd.exa.title @:apiKey"
+      }
+    },
+    "ollama": {
+      "title": "Ollama",
+      "useLabel": "使用@:rtd.ollama.title",
+      "apiKey": {
+        "placeholder": "輸入@:rtd.ollama.title @:apiKey"
+      }
+    },
+    "disableRTD": {
+      "label": "停用@:rtd.title",
+      "successMessage": {
+        "detail": "@:rtd.title已停用"
+      },
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "停用@:rtd.title失敗"
+      }
+    }
+  },
+  "remoteToolsConnector": {
+    "title": "遠端服務",
+    "connectionRequired": "要使用此功能，您需要連接@:remoteToolsConnector.title。",
+    "experimentalInfo": "RTD 是實驗性的，可能無法按預期工作。",
+    "isConnectedTooltip": "@:remoteToolsConnector.title - 已連接",
+    "isDisconnectedTooltip": "@:remoteToolsConnector.title - 已斷開",
+    "connectNow": "連接@:remoteToolsConnector.title",
+    "connectFirst": "先連接@:remoteToolsConnector.title",
+    "reconnectNow": "重新連接@:remoteToolsConnector.title",
+    "disconnectNow": "立即斷開連接",
+    "checkHealth": "檢查連接健康狀況",
+    "connectionDetails": "編輯連接詳情",
+    "noPermissionPolicy": "您沒有權限存取此功能",
+    "connect": {
+      "form": {
+        "title": "連接到@:remoteToolsConnector.title",
+        "saveAndConnect": "儲存並連接",
+        "rememberConnectionInfo": "記住@:connectionInfo"
+      },
+      "import": {
+        "title": "@:import @:connectionInfo",
+        "dragAndDropMessage": "拖放 Msty 遠端連接設定檔以匯入並連接到@:remoteToolsConnector.title。",
+        "successMessage": {
+          "detail": "@:connectionInfo已匯入"
+        },
+        "errorMessage": {
+          "detail": "匯入@:connectionInfo失敗"
+        }
+      },
+      "export": {
+        "title": "匯出已儲存的@:connectionInfo",
+        "successMessage": {
+          "detail": "@:connectionInfo已匯出"
+        },
+        "errorMessage": {
+          "detail": "匯出@:connectionInfo失敗"
+        }
+      },
+      "successMessage": {
+        "summary": "已連接！",
+        "detail": "@:remoteToolsConnector.title已連接至 {url}"
+      },
+      "errorMessage": {
+        "summary": "連接@:error",
+        "detail": "連接@:remoteToolsConnector.title失敗。請確保@:remoteToolsConnector.title正在執行且可通過提供的 URL 存取。",
+        "tokenMissing": "Token 缺失。請檢查 Token 並重試。"
+      },
+      "forgetConnectionInfo": "忘記之前的@:connectionInfo",
+      "forgetSuccessMessage": {
+        "detail": "@:connectionInfo已忘記"
+      },
+      "toolCommandPaths": {
+        "title": "工具命令路徑",
+        "description": "如果您正在使用工具集，請設定您正在使用的命令的路徑。",
+        "selectPlaceholder": "@:select或輸入一個命令",
+        "pathPlaceholder": "輸入命令的完整路徑",
+        "assignPath": "分配@:path"
+      }
+    },
+    "disconnect": {
+      "successMessage": {
+        "summary": "已斷開！",
+        "detail": "已從@:remoteToolsConnector.title斷開連接"
+      }
+    }
+  },
+  "forge": {
+    "forgeMode": {
+      "title": "鍛造模式",
+      "description": "鍛造模式為您提供了一個空白畫布和一個強大的作家，可以自由地建立、編輯、樣式化和完善內容。"
+    },
+    "title": "鍛造",
+    "forgeContent": "@:forge.title內容",
+    "forgingContent": "正在鍛造內容",
+    "editRawMarkdown": "編輯原始 Markdown",
+    "disabledEditRawMarkdown": "此內容已被鍛造。不允許編輯原始 Markdown。",
+    "saveChanges": {
+      "title": "儲存更改",
+      "successMessage": {
+        "detail": "更改已儲存"
+      },
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "儲存更改失敗"
+      }
+    },
+    "placeholders": {
+      "writeSomething": "寫點什麼或輸入 / 查看選項...",
+      "detailsSummary": "輸入詳細摘要"
+    },
+    "prompts": {
+      "simplify": "簡化",
+      "fixSpellingAndGrammar": "修復拼寫和語法",
+      "makeShorter": "更短",
+      "makeLonger": "更長",
+      "tldr": "太長不看 (TL;DR)",
+      "emojify": "新增表情符號",
+      "changeTone": {
+        "title": "更改語氣",
+        "academic": "學術",
+        "business": "商務",
+        "casual": "休閒",
+        "childFriendly": "兒童友好",
+        "conversational": "對話",
+        "emotional": "情感",
+        "humorous": "幽默",
+        "informative": "信息",
+        "inspirational": "勵志",
+        "professional": "專業",
+        "narrative": "敘述",
+        "objective": "客觀",
+        "persuasive": "有說服力",
+        "poetic": "詩意"
+      }
+    },
+    "clearFormatting": "清除格式",
+    "bold": "粗體",
+    "italic": "斜體",
+    "underline": "底線",
+    "strikethrough": "刪除線",
+    "code": "代碼",
+    "codeBlock": "代碼塊",
+    "blockQuote": "引用",
+    "undo": "撤銷",
+    "redo": "重做",
+    "texts": "文字",
+    "paragraph": "段落",
+    "heading1": "標題 1",
+    "heading2": "標題 2",
+    "heading3": "標題 3",
+    "lists": "列表",
+    "bulletList": "無序列表",
+    "numberedList": "有序列表",
+    "taskList": "任務列表",
+    "whatToForgePlaceholder": "您今天想鍛造什麼？",
+    "forgeWriter": "鍛造作家",
+    "inlinePrompt": {
+      "placeholder": "輸入您的自訂提示詞...",
+      "ask": "提問",
+      "askTooltip": "要求模型根據自訂提示詞生成回應"
+    },
+    "forgeCanvas": "@:forge.title畫布",
+    "newForgeCanvas": "新@:forge.forgeCanvas",
+    "addNewForgeCanvas": "新增新@:forge.forgeCanvas"
+  },
+  "preview": "預覽",
+  "prompt": "提示詞 | 提示詞",
+  "discard": "放棄",
+  "insert": "插入",
+  "regenerate": "重新生成",
+  "rewrite": "重寫",
+  "exit": "退出",
+  "customPrompt": "自訂提示詞",
+  "markdown": "Markdown",
+  "json": "JSON",
+  "invalidJson": "無效的 JSON",
+  "downloadMarkdown": "下載為 Markdown 檔案",
+  "downloadJson": "下載為 JSON 檔案",
+  "formattedHTML": "格式化 HTML",
+  "downloadHTML": "下載為 HTML 檔案",
+  "copyMarkdownToClipboard": "複製 Markdown 到剪切板",
+  "copyHTMLToClipboard": "複製 HTML 到剪切板",
+  "copiedToClipboard": {
+    "summary": "已複製！",
+    "markdownDetail": "內容已作為 Markdown 複製到剪切板",
+    "htmlDetail": "內容已作為 HTML 複製到剪切板",
+    "jsonDetail": "內容已作為 JSON 複製到剪切板",
+    "itemCopied": "{item}已複製到剪切板"
+  },
+  "exportJsonToClipboard": "內容已作為 JSON 匯出到剪切板",
+  "variable": "變數 | 變數",
+  "pinItem": {
+    "title": "已固定{item}",
+    "action": "固定{item}",
+    "successMessage": {
+      "detail": "{item}已固定"
+    },
+    "errorMessage": {
+      "summary": "@:error",
+      "detail": "無法固定{item}"
+    }
+  },
+  "unpinItem": {
+    "action": "取消固定{item}",
+    "successMessage": {
+      "detail": "{item}已取消固定"
+    },
+    "errorMessage": {
+      "summary": "@:error",
+      "detail": "無法取消固定{item}"
+    }
+  },
+  "setDefaultItem": {
+    "title": "預設{item}",
+    "action": "將{item}設為預設",
+    "successMessage": {
+      "detail": "{item}已設為預設"
+    },
+    "errorMessage": {
+      "detail": "無法將{item}設為預設"
+    }
+  },
+  "unsetDefaultItem": {
+    "action": "預設{item}。點擊取消。",
+    "successMessage": {
+      "detail": "{item}已取消預設"
+    }
+  },
+  "model": "模型",
+  "modelSettings": "@:model設定",
+  "syncSplit": "同步@:split",
+  "name": "名稱",
+  "split": "拆分 | 拆分",
+  "template": "範本 | 範本",
+  "discardChanges": "放棄更改",
+  "applyChanges": "套用更改",
+  "splitPreset": {
+    "title": "Split @:preset | Split @:preset",
+    "selectPlaceholder": "@:select a @:preset",
+    "new": "New @:preset",
+    "newSplit": "New @:preset",
+    "splits": {
+      "splitIndex": "Split {index}",
+      "delete": "@:delete @:preset"
+    },
+    "import": {
+      "title": "Import @:preset | Import @:preset",
+      "dragAndDropMessage": "Drag and drop a zipped Msty presets file to import and create new presets. In case of duplicate names, the imported presets will be renamed. You can change it later.",
+      "successMessage": {
+        "detail": "@:preset imported"
+      },
+      "errorMessage": {
+        "detail": "Failed to import presets"
+      }
+    },
+    "export": {
+      "title": "Export @:preset | Export @:preset",
+      "selected": "Export Selected @:preset | Export Selected @:preset",
+      "successMessage": {
+        "detail": "Split preset exported as {fileName} | Split presets exported as {fileName}"
+      },
+      "errorMessage": {
+        "detail": "Failed to export preset | Failed to export presets"
+      }
+    },
+    "delete": {
+      "title": "@:delete @:preset | Delete @:preset",
+      "selected": "@:delete Selected @:preset | Delete Selected @:preset",
+      "deleteConfirmation": {
+        "header": "@:delete @:preset",
+        "description": "Are you sure you want to delete {presetName}? | Are you sure you want to delete {count} presets?"
+      },
+      "successMessage": {
+        "detail": "Split preset deleted | Split presets deleted"
+      },
+      "errorMessage": {
+        "detail": "Could not delete split preset | Could not delete split presets"
+      }
+    },
+    "update": {
+      "successMessage": {
+        "detail": "Split preset updated"
+      },
+      "errorMessage": {
+        "detail": "Could not update split preset"
+      }
+    },
+    "save": {
+      "successMessage": {
+        "detail": "Split preset saved"
+      },
+      "errorMessage": {
+        "detail": "Could not save split preset"
+      }
+    },
+    "empty": {
+      "title": "No @:splitPreset.title available.",
+      "description": "Get started by adding or importing a new @:splitPreset.title"
+    },
+    "invalidTemplatesMessage": {
+      "summary": "Invalid Templates",
+      "detail": "Some templates are invalid or missing required fields. Please correct them before continuing."
+    }
+  },
+  "toolbox": {
+    "title": "工具箱",
+    "toolsUsageWillSkip": "Msty @:remoteToolsConnector.title未執行；將跳過工具使用。",
+    "tools": {
+      "title": "工具 | 工具",
+      "description": "説明您進行 LLM 工作的工具集合。",
+      "availableTools": "可用工具",
+      "availableToolsets": "可用工具集",
+      "setDefaultParams": "設定預設參數",
+      "setParams": "設定參數",
+      "missingThisDependency": "您的環境中似乎缺少此依賴項。如果沒有它，工具可能無法按預期工作。",
+      "defaultParamsForm": {
+        "header": "{toolName} 的預設參數",
+        "description": "這些參數將全域用於 {toolName} 工具的所有實例。您可以在建立工具集時覆蓋這些參數。",
+        "args": {
+          "label": "參數 (Arguments)",
+          "description": "@:select一個@:argument並設定其值。留空以跳過設定值。",
+          "customArg": {
+            "label": "自訂@:argument",
+            "description": "輸入新@:argument的名稱。用逗號分隔多個參數。",
+            "placeholder": "例如 --arg1, someArg, -verbose"
+          }
+        },
+        "env": {
+          "label": "環境變數",
+          "description": "@:select或輸入一個新的環境變數@:variable並設定其值。",
+          "addEnv": "新增環境變數@:variable",
+          "selectPlaceholder": "@:select一個環境變數@:variable",
+          "enterNew": "新增一個新的環境變數@:variable"
+        },
+        "successMessage": {
+          "saveDetail": "{toolName} 的預設參數已儲存。"
+        },
+        "errorMessage": {
+          "saveDetail": "儲存預設參數失敗。"
+        }
+      },
+      "addNewTool": {
+        "title": "新增新工具",
+        "description": "將您自己的 MCP 相容工具新增到工具箱。新增後，您可以將其新增到工具集，設定參數，並與模型一起使用。",
+        "namePlaceholder": "給它一個名字（預設使用工具 ID）",
+        "id": {
+          "label": "工具 ID",
+          "placeholder": "唯一工具識別字（如果從配置中檢測到則自動填充）"
+        },
+        "duplicateId": "具有此 ID 的工具已存在。請輸入唯一的 ID。",
+        "successMessage": {
+          "summary": "@:success",
+          "detail": "工具已新增到工具箱。您現在可以將其新增到工具集並與模型一起使用。"
+        },
+        "successMessageWithToolset": {
+          "summary": "@:success",
+          "detail": "工具已新增到工具箱，並建立了匹配的工具集。已準備好與模型一起使用。"
+        },
+        "errorMessage": {
+          "summary": "@:error",
+          "detail": "新增工具到工具箱失敗。{error}"
+        },
+        "toolConfig": {
+          "label": "工具配置",
+          "placeholder": "輸入或貼上工具配置 JSON。接受直接配置或包裝格式（將自動提取工具 ID）",
+          "showExampleTitle": "顯示工具配置示例",
+          "explanation": "工具配置接受多種格式，包括帶有 mcpServers 的包裝配置。它將盡可能自動提取 toolId 和名稱。必須至少包含 {command}。動態參數需要像這樣包裹在花括弧 {curly} 中：{argExample}。同樣，可以使用 {envVarLabel} 設定動態環境變數。"
+        },
+        "autoCreateToolset": {
+          "label": "自動建立同名工具集"
+        }
+      },
+      "editTool": {
+        "title": "編輯工具",
+        "description": "更新工具的名稱、筆記和配置。",
+        "successMessage": {
+          "summary": "@:success",
+          "detail": "工具@:updatedSuccess"
+        },
+        "errorMessage": {
+          "summary": "@:error",
+          "detail": "@:failedToUpdate工具。"
+        }
+      },
+      "emptyPlaceholder": {
+        "description1": "使用由 Msty @:remoteToolsConnector.title提供支援的外部 MCP 工具來擴展您的模型能力並增強您的 LLM 體驗。",
+        "description2": "您可以通過匯入 Msty 附帶的許多工具或新增您自己的工具來開始。",
+        "description3": "注意：這些工具不是由 Msty 提供、測試或維護的。我們只是提供一個使用這些工具的平臺，並允許匯入它們以方便使用。請自行承擔使用風險。Msty 不對因使用這些工具而產生的任何問題負責。另外，如需支持，請聯繫工具作者。"
+      },
+      "importTools": {
+        "title": "匯入預設@:toolbox.tools.title",
+        "successMessage": {
+          "detail": "{count} 個預設工具已成功匯入。您可以建立工具集並與模型一起使用。"
+        },
+        "successMessageWithToolsets": {
+          "detail": "{count} 個預設工具已成功匯入，並自動建立了 {toolsetCount} 個相應的工具集。"
+        },
+        "errorMessage": {
+          "detail": "匯入預設@:toolbox.tools.title失敗"
+        }
+      },
+      "deleteConfirmation": {
+        "header": "刪除工具",
+        "description": "您確定要刪除 {toolName} 嗎？",
+        "successMessage": {
+          "summary": "@:success",
+          "detail": "工具已刪除"
+        },
+        "errorMessage": {
+          "summary": "@:error",
+          "detail": "@:failedToDelete工具"
+        }
+      },
+      "deleteAll": {
+        "confirmationHeader": "刪除所有工具",
+        "confirmationMessage": "您確定要刪除所有工具嗎？此操作無法撤銷。",
+        "successMessage": "所有工具已成功刪除",
+        "errorMessage": "刪除所有工具失敗"
+      },
+      "copiedToClipboard": "工具配置已複製到剪切板",
+      "viewToolsUsage": {
+        "title": "查看工具使用情況",
+        "noToolCalls": {
+          "title": "未找到工具調用",
+          "description": "似乎有一些工具可供模型使用，但它沒有進行任何工具調用。這可能是因為模型不需要使用任何工具。"
+        }
+      }
+    },
+    "toolsets": {
+      "title": "工具集 | 工具集",
+      "emptyPlaceholder": {
+        "title": "未找到工具集",
+        "description": "工具集是帶有參數的工具集合。您可以建立一個工具集並向其中新增工具。與模型聊天時，您可以選擇一個或多個工具集與模型一起使用。"
+      },
+      "addSomeTools": "請新增一些工具以開始。",
+      "noTools": "此工具集中沒有工具",
+      "addNewToolset": {
+        "title": "新增新@:toolbox.toolsets.title",
+        "description": "建立一個新工具集以將工具分組。您可以向工具集新增工具並與模型一起使用。確保通過點擊 {icon} 按鈕為工具集中的每個工具設定/覆蓋參數。",
+        "setParams": {
+          "title": "為 {toolName} 設定參數",
+          "description": "為 {toolName} 工具設定參數。您可以覆蓋為該工具設定的預設參數。"
+        },
+        "successMessage": {
+          "summary": "@:success",
+          "saveDetail": "工具集已儲存並新增到工具箱。您現在可以與模型一起使用它。"
+        },
+        "errorMessage": {
+          "summary": "@:error",
+          "saveDetail": "@:failedToSave工具集。"
+        }
+      },
+      "editToolset": {
+        "title": "編輯工具集",
+        "description": "編輯工具集的名稱和筆記。您還可以從工具集中新增或移除工具，並通過點擊 {icon} 按鈕調整每個工具的參數。",
+        "successMessage": {
+          "summary": "@:success",
+          "detail": "工具集@:updatedSuccess"
+        },
+        "errorMessage": {
+          "summary": "@:error",
+          "detail": "@:failedToUpdate工具集。"
+        }
+      },
+      "deleteConfirmation": {
+        "header": "刪除工具集",
+        "description": "您確定要刪除 {toolsetName} 嗎？",
+        "successMessage": {
+          "summary": "@:success",
+          "detail": "工具集已刪除"
+        },
+        "errorMessage": {
+          "summary": "@:error",
+          "detail": "@:failedToDelete工具集"
+        }
+      },
+      "deleteAll": {
+        "confirmationHeader": "刪除所有工具集",
+        "confirmationMessage": "您確定要刪除所有工具集嗎？此操作無法撤銷。",
+        "successMessage": "所有工具集已成功刪除",
+        "errorMessage": "刪除所有工具集失敗"
+      },
+      "export": {
+        "title": "匯出@:toolbox.toolsets.title",
+        "description": "為了安全起見，可以在匯出之前移除敏感配置值。選擇每個工具要清洗的環境變數和參數。",
+        "envVarsToScrub": "要清洗的環境變數",
+        "argsToScrub": "要清洗的參數",
+        "scrubCustomArgs": "清洗自訂參數字串",
+        "selectEnvVarsPlaceholder": "選擇要移除值的環境變數",
+        "selectArgsPlaceholder": "選擇要移除值的參數",
+        "noScrubbableData": "無敏感配置資料可清洗",
+        "sensitiveDataNote": "為了您的安全，已預選常見敏感值。",
+        "copiedToClipboard": "工具集配置已複製到剪切板",
+        "downloadedAsJson": "工具集配置已下載",
+        "fetchError": "取得工具集資料以匯出失敗"
+      },
+      "import": {
+        "missingTools": "未找到並跳過了一些工具：{tools}"
+      },
+      "noOfTools": "{count} 個工具 | {count} 個工具",
+      "viewToolsAndNotes": "查看工具與筆記",
+      "console": {
+        "title": "工具控制台",
+        "description": "您可以使用此控制台測試 {toolName} 並查看輸出。您還可以使用不同的參數測試工具。",
+        "listTools": "列出 {toolName} 的功能",
+        "missingRequiredArgument": "缺少 {count} 個必填@:argument",
+        "continueWithMissingArgs": "@:continue且缺少@:argument",
+        "viewSourceOnGitHub": "在 GitHub 上查看源碼",
+        "toolCall": {
+          "title": "工具調用",
+          "description": "新增調用 {featureName} 所需的屬性。如果需要，可以新增額外屬性。直接調用工具時要小心，尤其是在沒有正確值的情況下。",
+          "selectPlaceholder": "@:select一個屬性",
+          "enterNew": "新增一個新屬性",
+          "execute": "執行@:toolbox.toolsets.console.toolCall"
+        }
+      },
+      "manageTooltip": "點擊管理使用的工具集",
+      "noModelSupport": "@:select模型可能不支援工具。",
+      "toolsetsUsedCount": "{count} 個活動工具集 | {count} 個活動工具集"
+    }
+  },
+  "liveContexts": {
+    "liveContextsUsedCount": "{count} 個活動即時上下文 | {count} 個活動即時上下文",
+    "title": "即時上下文",
+    "contexts": "即時上下文",
+    "addNew": {
+      "title": "新增新@:liveContexts.title",
+      "description": "建立一個新@:liveContexts.title源，以向您的對話新增外部資料上下文。",
+      "errorMessage": {
+        "detail": "新增@:liveContexts.title失敗"
+      },
+      "successMessage": {
+        "detail": "@:liveContexts.title已新增"
+      }
+    },
+    "edit": {
+      "title": "編輯@:liveContexts.title"
+    },
+    "promptPlaceholder": "使用的提示詞，例如“在您的回復中使用以下即時上下文資料”",
+    "endpointDetails": "端點詳情",
+    "method": "方法",
+    "url": "URL",
+    "customHeaders": "自訂標頭",
+    "hasBody": "有主體",
+    "customProcessing": "自訂處理",
+    "promptTemplate": "提示詞範本",
+    "requestHeaders": {
+      "title": "請求標頭",
+      "description": "新增請求標頭作為 JSON 對象。這將隨請求一起發送到 API 端點。",
+      "placeholder": "{'{'}\n  \"Authorization\": \"Bearer YOUR_API_KEY\"\n{'}'}"
+    },
+    "requestBody": {
+      "title": "請求主體",
+      "description": "新增請求主體作為 JSON 對象。這將隨請求一起發送到 API 端點。",
+      "placeholder": "{'{'}\n  \"key\": \"value\"\n{'}'}"
+    },
+    "processingFunction": {
+      "title": "處理函數",
+      "description": "新增處理函數以在對話中使用回應資料之前對其進行轉換。該函數應返回一個字串。",
+      "placeholderHeader": "function process({'{'}data{'}'}) {'{'}",
+      "placeholder": "  // process the input and return a string\n  return JSON.stringify(data)",
+      "placeholderFooter": "{'}'}"
+    },
+    "update": {
+      "successMessage": {
+        "detail": "@:liveContexts.title已更新"
+      },
+      "errorMessage": {
+        "detail": "更新@:liveContexts.title失敗"
+      }
+    },
+    "deleteConfirmation": {
+      "header": "刪除@:liveContexts.title",
+      "description": "您確定要刪除 {liveContextName} 嗎？",
+      "successMessage": {
+        "detail": "@:liveContexts.title已刪除"
+      },
+      "errorMessage": {
+        "detail": "刪除@:liveContexts.title失敗"
+      }
+    },
+    "emptyPlaceholder": {
+      "title": "未找到@:liveContexts.title",
+      "description": "@:liveContexts.title是您可以新增到對話中的外部資料上下文。您可以建立一個新@:liveContexts.title源並與模型一起使用。"
+    },
+    "deleteAll": {
+      "confirmationHeader": "刪除所有@:liveContexts.contexts",
+      "confirmationMessage": "您確定要刪除所有即時上下文嗎？此操作無法撤銷。",
+      "successMessage": "所有即時上下文已成功刪除",
+      "errorMessage": "刪除所有即時上下文失敗"
+    },
+    "export": {
+      "title": "匯出@:liveContexts.title",
+      "headerScrubDescription": "為了安全起見，可以在匯出之前移除敏感標頭值。選擇要清洗的標頭。",
+      "selectHeadersToScrub": "要清洗的標頭",
+      "selectHeadersPlaceholder": "選擇要移除值的標頭",
+      "sensitiveHeadersNote": "為了您的安全，已預選常見敏感標頭。",
+      "copiedToClipboard": "即時上下文配置已複製到剪切板",
+      "downloadedAsJson": "即時上下文配置已下載"
+    }
+  },
+  "modes": {
+    "mode": "模式 | 模式",
+    "title": "@:modes.mode",
+    "exitMode": "退出 {mode} @:modes.mode",
+    "zenMode": {
+      "title": "禪",
+      "quote": "平靜專注的狀態",
+      "newConversation": "新@:modes.zenMode.title@:conversation.title"
+    },
+    "vaporMode": {
+      "title": "@:modes.vaporMode.vapor@:modes.mode",
+      "vapor": "蒸汽",
+      "description": "對話將不會儲存在您的歷史記錄中，並且在您關閉它或離開時會消失",
+      "willDisappearTooltip": "當您關閉@:modes.vaporMode.vapor@:modes.mode或離開時，此內容將消失",
+      "exitVaporMode": "退出@:modes.vaporMode.vapor@:modes.mode",
+      "enterVaporMode": "進入@:modes.vaporMode.vapor@:modes.mode",
+      "preserverChat": {
+        "saveConversation": "@:save@:conversation.title",
+        "successMessage": {
+          "detail": "@:modes.vaporMode.vapor聊天已儲存"
+        },
+        "errorMessage": {
+          "detail": "儲存@:modes.vaporMode.vapor聊天失敗"
+        }
+      }
+    },
+    "focusMode": {
+      "title": "專注@:modes.mode"
+    },
+    "normalMode": {
+      "title": "正常@:modes.mode"
+    }
+  },
+  "searchForm": {
+    "query": "查詢",
+    "title": "搜尋專案",
+    "noResults": {
+      "title": "未找到結果",
+      "description": "嘗試搜尋不同的術語"
+    },
+    "entity": {
+      "conversationTextMessages": "@:conversation.title",
+      "promptsLibraryPrompts": "提示詞 | 提示詞"
+    },
+    "foundResultsCount": "找到 {count} 個結果 | 找到 {count} 個結果",
+    "labels": {
+      "title": "搜尋 {entity}",
+      "description": "使用關鍵字快速查找 {entity}",
+      "tips": {
+        "default": {
+          "description": "預設搜尋匹配所有單詞（例如，{example} → 匹配包含任意順序的兩個單詞的文字）",
+          "example": "藍色 汽車"
+        },
+        "partial": {
+          "description": "使用 {operator} 進行部分匹配（例如，{example}）",
+          "operator": "*",
+          "example": "跑* → 跑步, 奔跑"
+        },
+        "or": {
+          "description": "@:user {operator} 以匹配任何術語（例如，{example}）",
+          "operator": "OR",
+          "example": "蘋果 OR 柳丁"
+        },
+        "exact": {
+          "description": "使用雙引號 {operator} 進行精確匹配（例如，{example}）",
+          "operator": "\"\"",
+          "example": "\"藍色 汽車\""
+        },
+        "specialCharacters": {
+          "description": "使用 {operator} 轉義特殊字元（例如，{example}）",
+          "operator": "\"\"",
+          "example": "\"C++\", \"node.js\""
+        }
+      }
+    }
+  },
+  "clearSearch": "清除搜尋",
+  "helpfulTips": "實用技巧",
+  "hideSearch": "隱藏搜尋",
+  "bookmarkItem": {
+    "action": "收藏{item}",
+    "jump": "跳轉到已收藏的{item}",
+    "title": "已收藏的{item}",
+    "successMessage": {
+      "detail": "{item}已收藏"
+    },
+    "errorMessage": {
+      "summary": "@:error",
+      "detail": "無法收藏{item}"
+    },
+    "deletedInfoMessage": {
+      "detail": "已收藏的{item}已被刪除"
+    },
+    "emptyState": {
+      "title": "沒有可用的書簽。",
+      "description": "通過收藏{item}開始"
+    }
+  },
+  "removeBookmarkedItem": {
+    "action": "移除已收藏的{item}",
+    "successMessage": {
+      "detail": "{item}已從書簽中移除"
+    },
+    "errorMessage": {
+      "summary": "@:error",
+      "detail": "無法從書簽中移除{item}"
+    }
+  },
+  "turnstile": {
+    "title": "轉門 | 轉門",
+    "newTurnstile": "新@:turnstile.title",
+    "queueEntry": "新增到佇列",
+    "selectPlaceholder": "@:select一個@:turnstile.title",
+    "addQueueWithAlt": "點擊打開或 Alt+點擊以新增到佇列",
+    "entriesQueued": "無排隊@:entry | {count}/{total} @:entry已排隊 | {count}/{total} @:entry已排隊",
+    "emptyQueueMessage": "一旦您的提示詞準備就緒，點擊@:turnstile.queueEntry以新增條目到佇列。",
+    "manageSavedTurnstiles": "管理已儲存的轉門",
+    "saveForm": {
+      "title": "另存@:turnstile.title為",
+      "successMessage": {
+        "detail": "@:turnstile.title已儲存。"
+      },
+      "errorMessage": {
+        "detail": "儲存轉門失敗。"
+      }
+    },
+    "loadTurnstiles": {
+      "title": "載入@:turnstile.title",
+      "successMessage": {
+        "summary": "@:turnstile.title已載入！",
+        "detail": "{count} 個條目已載入並排隊。"
+      },
+      "errorMessage": {
+        "summary": "@:error",
+        "detail": "載入轉門失敗。"
+      }
+    },
+    "clearQueue": {
+      "title": "清除佇列",
+      "clearQueueConfirmation": {
+        "message": "您確定要清除佇列嗎？這將移除您新增的所有訊息。"
+      }
+    },
+    "newEntry": {
+      "title": "新條目"
+    },
+    "invalidEntriesMessage": {
+      "summary": "無效條目",
+      "detail": "某些條目無效或缺少必填欄位。請在繼續之前更正它們。"
+    },
+    "metaSendMissingRootNode": {
+      "detail": "無法執行 {metaType}。請確保它不是佇列中的第一個條目。"
+    },
+    "update": {
+      "successMessage": {
+        "detail": "@:turnstile.title已更新。"
+      },
+      "errorMessage": {
+        "detail": "更新轉門失敗。您設定提示詞和模型了嗎？"
+      }
+    },
+    "save": {
+      "successMessage": {
+        "detail": "@:turnstile.title已儲存。"
+      },
+      "errorMessage": {
+        "detail": "儲存轉門失敗。您設定提示詞和模型了嗎？"
+      }
+    },
+    "delete": {
+      "selected": "刪除選中的@:turnstile.title | 刪除選中的@:turnstile.title",
+      "deleteConfirmation": {
+        "header": "刪除@:turnstile.title",
+        "description": "您確定要刪除 {turnstileName} 嗎？ | 您確定要刪除 {count} 個轉門嗎？"
+      }
+    },
+    "empty": {
+      "title": "沒有可用的@:turnstile.title。",
+      "description": "通過新增或匯入新@:turnstile.title開始。"
+    },
+    "new": "@:new @:turnstile.title",
+    "entryIndex": "@:entry {index}",
+    "addContinue": "新增@:message.renderingActions.continueGeneration",
+    "addRegenerate": "新增@:regenerate",
+    "addPersona": "新增@:persona.title",
+    "addShield": "新增@:contextShield.title",
+    "addShieldWithSummary": "新增@:contextShield.contextShieldWithSummary",
+    "import": {
+      "title": "匯入@:turnstile.title",
+      "dragAndDropMessage": "拖放壓縮的 Msty @:turnstile.title以匯入並建立新轉門。如果名稱重複，匯入的轉門將被重命名。您可以稍後更改它。",
+      "successMessage": {
+        "detail": "轉門已匯入"
+      },
+      "errorMessage": {
+        "detail": "匯入轉門失敗"
+      }
+    },
+    "export": {
+      "title": "匯出@:turnstile.title",
+      "selected": "匯出選中的@:turnstile.title | 匯出選中的@:turnstile.title",
+      "successMessage": {
+        "detail": "@:turnstile.title已匯出為 {fileName} | @:turnstile.title已匯出為 {fileName}"
+      },
+      "errorMessage": {
+        "detail": "匯出@:turnstile.title失敗 | 匯出@:turnstile.title失敗"
+      }
+    }
+  },
+  "modelMatchmaker": {
+    "title": "模型匹配器",
+    "description": "調整編碼、推理或數學等優勢的權重滑塊，匹配器將根據您的需求排名並推薦最佳模型。結果可能因資料品質、模型大小和任務複雜性而異。",
+    "ctaIntro": "找到您的模型了嗎？",
+    "ctaMessage": "在 Msty Studio 中測試和比較。",
+    "gravity": "權重",
+    "remoteOnly": "僅限遠程",
+    "rankedModels": {
+      "title": "排名模型",
+      "emptyMessage": "未找到模型。嘗試調整您的要求。"
+    },
+    "strengthsLabel": {
+      "ca": {
+        "title": "編碼",
+        "description": "用程式設計語言編寫代碼的能力。"
+      },
+      "aca": {
+        "title": "代理編碼",
+        "description": "用程式設計語言編寫代碼的代理能力。"
+      },
+      "daa": {
+        "title": "@:data分析",
+        "description": "分析資料並生成見解的能力。"
+      },
+      "ifa": {
+        "title": "指令遵循",
+        "description": "遵循指令並執行任務的能力。"
+      },
+      "jak": {
+        "title": "全能選手",
+        "description": "執行廣泛任務的能力。"
+      },
+      "la": {
+        "title": "語言",
+        "description": "理解和生成人類語言的能力。"
+      },
+      "ma": {
+        "title": "數學",
+        "description": "執行數學計算的能力。"
+      },
+      "pp": {
+        "title": "改寫",
+        "description": "改寫任何給定文字的展示能力。"
+      },
+      "ra": {
+        "title": "推理",
+        "description": "批判性思維 - 推理和決策的能力。"
+      },
+      "sim": {
+        "title": "簡化",
+        "description": "簡化任何給定複雜文字的能力。"
+      },
+      "stg": {
+        "title": "故事生成",
+        "description": "生成故事或敘述的能力。"
+      },
+      "sum": {
+        "title": "總結",
+        "description": "總結文字和數位資訊的能力。"
+      },
+      "tu": {
+        "title": "工具使用",
+        "description": "調用和使用外部工具的能力。"
+      },
+      "mit": {
+        "title": "最大輸入 Token",
+        "description": "一次調用接受的最大 Token 數。"
+      },
+      "mot": {
+        "title": "最大輸出 Token",
+        "description": "一次調用生成的最大 Token 數。"
+      },
+      "ics": {
+        "title": "輸入 Token 節省",
+        "costTitle": "輸入成本/百萬 Token",
+        "description": "生成輸入 Token 的成本節省。"
+      },
+      "ocs": {
+        "title": "輸出 Token 節省",
+        "costTitle": "輸出成本/百萬 Token",
+        "description": "生成輸出 Token 的成本節省。"
+      }
+    },
+    "normalizedScore": "歸一化分數",
+    "resetStrengths": "重設優勢",
+    "savePresetForm": {
+      "title": "將優勢儲存為@:preset",
+      "errorMessage": {
+        "detail": "儲存優勢預設失敗。"
+      },
+      "successMessage": {
+        "detail": "優勢預設已儲存。"
+      },
+      "loadedMessage": {
+        "detail": "優勢預設已載入。"
+      }
+    },
+    "deletePresetConfirm": {
+      "title": "刪除@:preset",
+      "message": "您確定要刪除 {presetName} 嗎？",
+      "errorMessage": {
+        "detail": "刪除優勢預設失敗。"
+      },
+      "successMessage": {
+        "detail": "優勢預設已刪除。"
+      }
+    }
+  },
+  "costCalculator": {
+    "title": "模型成本計算器",
+    "description": "計算和比較 OpenAI, Anthropic, Google 等 AI 模型的成本。根據輸入/輸出 Token 使用情況和模型定價估算您的費用。這些僅為估算值，實際成本可能有所不同。",
+    "tokenInputs": "Token 輸入",
+    "filters": "篩選器",
+    "ctaIntro": "找到您的模型了嗎？",
+    "ctaMessage": "在 Msty Studio 中測試和比較。"
+  },
+  "vramCalculator": {
+    "title": "VRAM 計算器",
+    "description": "在下載或執行模型之前，檢查模型是否適合您設備的 VRAM。此計算器根據模型架構和大小提供 VRAM 需求估算。選擇下方的一個選項開始。",
+    "ctaIntro": "找到您的模型了嗎？",
+    "ctaMessage": "在 Msty Studio 中測試和比較。"
+  },
+  "copyOrMoveItemToWorkspace": {
+    "copyTitle": "複製{item}到工作空間",
+    "copyOrMoveTitle": "複製/移動{item}到工作空間",
+    "selectWorkspaces": "@:select工作空間",
+    "availableWorkspaces": "可用工作空間",
+    "actionLabel": "操作",
+    "inputLabel": {
+      "copy": "將{item}複製到一個或多個工作空間。",
+      "copyOrMove": "複製/移動{item}到一個或多個工作空間。",
+      "edit": "將此提供方同步到一個或多個工作空間。如果此提供方之前已複製，它將被更新。如果沒有，它將被新增。"
+    },
+    "successMessage": {
+      "copyDetail": "{item}已複製到 {count} 個工作空間 | {item}已複製到 {count} 個工作空間",
+      "moveDetail": "{item}已移動到 {count} 個工作空間 | {item}已移動到 {count} 個工作空間"
+    },
+    "errorMessage": {
+      "copyDetail": "複製{item}到 {count} 個工作空間失敗 | 複製{item}到 {count} 個工作空間失敗",
+      "moveDetail": "移動{item}到 {count} 個工作空間失敗 | 移動{item}到 {count} 個工作空間失敗"
+    },
+    "partialCopyWarningMessage": {
+      "summary": "部分複製",
+      "detail": "無法將{item}複製到 {count} 個工作空間 | 無法將{item}複製到 {count} 個工作空間"
+    },
+    "partialMovedWarningMessage": {
+      "summary": "部分移動",
+      "detail": "無法將{item}移動到 {count} 個工作空間 | 無法將{item}移動到 {count} 個工作空間"
+    },
+    "existingCopiesInfo": "跳過了一些工作空間 ({workspaces})，因為{item}已存在於其中",
+    "skippingExistingCopies": "將跳過已存在的{item}副本。"
+  },
+  "assignment": "分配 | 分配",
+  "modelSquad": {
+    "title": "模型特遣隊",
+    "description": "@:modelSquad.title是一組專用 AI 模型，其中每個模型都被分配執行特定任務，如自動標題生成、@:context摘要生成等。當需要執行該特定任務時，將自動選擇分配的模型。",
+    "addNewAssignment": "新增新@:assignment",
+    "noTask": "沒有更多可用任務",
+    "tasks": {
+      "autoTitleGeneration": "自動標題生成",
+      "contextShieldSummaryGeneration": "@:contextShield.title摘要生成",
+      "realTimeDataPromptSynthesis": "@:rtd.title提示詞合成",
+      "forgeContentGeneration": "鍛造內容生成",
+      "piiScrubbing": "@:pii.scrubbing.title"
+    },
+    "save": {
+      "successMessage": {
+        "detail": "@:assignment已儲存"
+      },
+      "errorMessage": {
+        "detail": "@:assignment儲存失敗"
+      }
+    },
+    "assignment": {
+      "dialog": {
+        "title": "為 {task} 分配模型",
+        "description": "選擇一個模型以分配給 ModelSquad 中的 {task} 任務。",
+        "selectModel": "選擇模型",
+        "selectModelPlaceholder": "選擇一個模型...",
+        "currentlyAssigned": "當前已分配：{model}",
+        "unknownModel": "未知模型",
+        "assignButton": "分配模型",
+        "changeButton": "更改模型",
+        "helpText": "當執行 {task} 任務時，將自動使用此模型。"
+      },
+      "success": "模型已成功分配給 {task}！",
+      "errors": {
+        "noModelSelected": "請選擇要分配的模型。",
+        "saveFailed": "儲存模型分配失敗。請重試。"
+      }
+    }
+  },
+  "pii": {
+    "title": "PII (個人身份資訊)",
+    "scrubbing": {
+      "title": "PII 清洗",
+      "description": "在對話中顯示之前，自動檢測並從知識庫內容中移除個人身份資訊。",
+      "info": {
+        "modelAssigned": "正在使用 {model} 進行 PII 檢測和移除。"
+      },
+      "warning": {
+        "noModel": "未在 ModelSquad 中為@:pii.scrubbing.title分配模型。在分配模型之前，知識庫檢索將失敗。",
+        "configurationError": "@:pii.scrubbing.title配置錯誤 - 為安全起見中斷知識庫檢索",
+        "setupError": "設定@:pii.scrubbing.title出錯 - 中斷知識庫檢索"
+      },
+      "placeholders": {
+        "personName": "[PERSON_NAME]",
+        "emailAddress": "[EMAIL_ADDRESS]",
+        "phoneNumber": "[PHONE_NUMBER]",
+        "address": "[ADDRESS]",
+        "idNumber": "[ID_NUMBER]",
+        "creditCard": "[CREDIT_CARD]",
+        "bankAccount": "[BANK_ACCOUNT]",
+        "ipAddress": "[IP_ADDRESS]",
+        "dateOfBirth": "[DATE_OF_BIRTH]"
+      },
+      "categories": {
+        "personalIdentifiers": "個人識別字",
+        "contactInformation": "聯繫資訊",
+        "financialInformation": "財務資訊",
+        "medicalInformation": "醫療資訊",
+        "digitalIdentifiers": "數位識別碼符",
+        "biometricData": "生物識別資料",
+        "locationData": "位置資料"
+      }
+    }
+  },
+  "persona": {
+    "title": "角色 | 角色",
+    "newPersona": "新@:persona.title",
+    "activePersona": "活動@:persona.title",
+    "empty": {
+      "title": "沒有可用的@:persona.title。",
+      "description": "通過新增或匯入新@:persona.title開始。您也可以匯入預設角色以開始。"
+    },
+    "contextShieldPosition": "@:contextShield.title位置",
+    "save": {
+      "successMessage": {
+        "detail": "@:persona.title已儲存"
+      },
+      "errorMessage": {
+        "detail": "@:persona.title儲存失敗"
+      }
+    },
+    "update": {
+      "successMessage": {
+        "detail": "@:persona.title已更新"
+      },
+      "errorMessage": {
+        "detail": "無法更新@:persona.title"
+      }
+    },
+    "delete": {
+      "selected": "刪除選中的@:persona.title",
+      "deleteConfirmation": {
+        "header": "刪除@:persona.title",
+        "description": "您確定要刪除 {personaName} 嗎？ | 您確定要刪除 {count} 個@:persona.title嗎？"
+      },
+      "successMessage": {
+        "detail": "@:persona.title已刪除 | @:persona.title已刪除"
+      },
+      "errorMessage": {
+        "detail": "無法刪除@:persona.title | 無法刪除@:persona.title"
+      }
+    },
+    "import": {
+      "title": "匯入@:persona.title",
+      "dragAndDropMessage": "拖放壓縮的 Msty @:persona.title以匯入並建立新角色。如果名稱重複，匯入的角色將被重命名。您可以稍後更改它。",
+      "successMessage": {
+        "detail": "角色已匯入"
+      },
+      "errorMessage": {
+        "detail": "匯入角色失敗"
+      }
+    },
+    "export": {
+      "title": "匯出@:persona.title",
+      "selected": "匯出選中的@:persona.title | 匯出選中的@:persona.title",
+      "successMessage": {
+        "detail": "@:persona.title已匯出為 {fileName} | @:persona.title已匯出為 {fileName}"
+      },
+      "errorMessage": {
+        "detail": "匯出@:persona.title失敗 | 匯出@:persona.title失敗"
+      }
+    },
+    "messages": {
+      "deleteSuccess": "@:persona.title已刪除 | @:persona.title已刪除"
+    },
+    "deleteConfirmation": {
+      "header": "刪除@:persona.title",
+      "message": "您確定要刪除 {personaName} 嗎？ | 您確定要刪除 {count} 個@:persona.title嗎？",
+      "errorMessage": {
+        "detail": "無法刪除@:persona.title | 無法刪除@:persona.title"
+      }
+    },
+    "addTitle": "新增@:persona.title",
+    "createRootFolder": "在根目錄新建資料夾",
+    "setDefaultFolder": "設為預設資料夾",
+    "unsetDefaultFolder": "取消設為預設資料夾",
+    "folderForm": {
+      "updateSuccessMessage": {
+        "detail": "@:folder已更新"
+      },
+      "updateErrorMessage": {
+        "detail": "更新@:folder失敗"
+      },
+      "createSuccessMessage": {
+        "detail": "@:folder已建立"
+      },
+      "createErrorMessage": {
+        "detail": "建立@:folder失敗"
+      },
+      "deleteConfirmation": {
+        "header": "刪除@:folder",
+        "message": "您確定要刪除 {folderName} 及其所有@:persona.title嗎？",
+        "successMessage": {
+          "detail": "@:folder已刪除"
+        },
+        "errorMessage": {
+          "detail": "刪除@:folder失敗"
+        }
+      }
+    },
+    "selectPlaceholder": "選擇一個@:persona.title",
+    "autoResponder": {
+      "turnOn": "開啟自動回復",
+      "turnOff": "關閉自動回復"
+    },
+    "contextMessageCount": {
+      "title": "上下文數量",
+      "description": "設定用於@:persona.title上下文的最近訊息數量"
+    }
+  },
+  "fewShotPrompts": {
+    "title": "Few-Shot 提示詞",
+    "description": "Few-shot learning 是一種機器學習技術，允許您使用少量資料訓練模型。您可以使用 few-shot 提示詞為模型提供示例，以説明其理解上下文並生成更好的響應。",
+    "addNewShot": "新增新 Shot"
+  },
+  "insights": "洞察",
+  "cost": "成本",
+  "costInUSD": "美元成本",
+  "promptTokens": "提示詞 Token",
+  "completionTokens": "補全 Token",
+  "totalTokens": "總 Token",
+  "usage": "使用量",
+  "tokens": "Token",
+  "tokensProcessed": "已處理 Token",
+  "selectProvider": "@:select提供方 | @:select提供方",
+  "tokensProcessedForProvider": "{provider} 已處理的 Token",
+  "totalUsage": "總使用量",
+  "fromTo": "從 {from} 到 {to}",
+  "crunchingTheNumbers": "正在計算資料",
+  "throughputForModel": {
+    "title": "{model} 的輸送量",
+    "unit": {
+      "description": "單位：Token/秒"
+    }
+  },
+  "latencyForModel": {
+    "title": "{model} 的延遲",
+    "unit": {
+      "description": "單位：秒"
+    }
+  },
+  "total": "總計",
+  "min": "最小",
+  "max": "最大",
+  "avg": "平均",
+  "summary": "摘要",
+  "dates": {
+    "today": "今天",
+    "last7Days": "最近 7 天",
+    "last14Days": "最近 14 天",
+    "last30Days": "最近 30 天",
+    "last3Months": "最近 3 個月",
+    "last6Months": "最近 6 個月",
+    "last12Months": "最近 12 個月",
+    "monthToDate": "本月至今",
+    "yearToDate": "本年至今",
+    "allTime": "全部時間",
+    "selectDateRange": "@:select日期範圍",
+    "month": "月",
+    "year": "年",
+    "day": "日",
+    "week": "周"
+  },
+  "insightsSummary": {
+    "emptyState": {
+      "title": "洞察摘要",
+      "description": "選定的日期範圍和提供方沒有可用資料。"
+    }
+  },
+  "insightsProviderTokensProcessed": {
+    "emptyState": {
+      "title": "已處理 Token",
+      "description": "選定的日期範圍和提供方沒有可用資料。"
+    }
+  },
+  "insightsProviderThroughput": {
+    "emptyState": {
+      "title": "輸送量",
+      "description": "選定的日期範圍、提供方和模型沒有可用資料。"
+    }
+  },
+  "insightsProviderLatency": {
+    "emptyState": {
+      "title": "延遲",
+      "description": "選定的日期範圍、提供方和模型沒有可用資料。"
+    }
+  },
+  "hideItem": {
+    "action": "隱藏{item}",
+    "successMessage": {
+      "detail": "{item}已隱藏"
+    },
+    "errorMessage": {
+      "summary": "@:error",
+      "detail": "無法隱藏{item}"
+    },
+    "unhideParent": "取消隱藏父級{item}",
+    "hiddenParentContentTitle": "隱藏的父級內容。點擊以取消隱藏。"
+  },
+  "showItem": {
+    "action": "顯示{item}"
+  },
+  "licenseVerification": {
+    "errorMessage": "驗證許可證失敗。請重試。",
+    "enterLicenseKey": "輸入 Aurum 許可證金鑰",
+    "licenseTypeInfo": "您正在使用 {licenseType} 許可證。",
+    "licenseKey": "許可證金鑰",
+    "logout": "登出",
+    "licenseTypeInfoForAdmin": "您正在使用 {licenseType} 許可證並以所有者身份登入。"
+  },
+  "aurum": {
+    "activateLicense": "啟動 Aurum 許可證",
+    "activateLicenseDescription": "輸入您的許可證金鑰以解鎖進階功能",
+    "manageLicense": "管理許可證",
+    "lifetimeLicense": "Aurum 終身",
+    "lifetimeLicenseDescription": "一次性購買，終身存取進階功能",
+    "annualLicense": "Aurum 年度",
+    "annualLicenseDescription": "年度訂閱，持續更新和進階功能",
+    "oneTimePurchase": "一次性購買",
+    "yearlySubscription": "年度訂閱",
+    "enterLicenseKey": "許可證金鑰",
+    "verifyAndActivate": "驗證並啟動",
+    "deactivateLicense": "停用許可證",
+    "licensedTo": "授權給",
+    "expiresOn": "過期日期",
+    "expired": "已過期",
+    "expiresInDays": "{days}天后過期",
+    "needLicense": "需要許可證？",
+    "purchaseLicense": "在 msty.ai 購買"
+  },
+  "cloneItem": {
+    "action": "複製{item}",
+    "successMessage": {
+      "detail": "{item}已複製"
+    },
+    "errorMessage": {
+      "summary": "@:error",
+      "detail": "無法複製{item}"
+    }
+  },
+  "cloneItemTo": {
+    "action": "複製到{item}",
+    "successMessage": {
+      "detail": "已成功複製到新{item}"
+    },
+    "errorMessage": {
+      "detail": "無法複製到新{item}"
+    }
+  },
+  "importJson": {
+    "clipboardTitle": "從 JSON 剪切板匯入{item}",
+    "fileTitle": "從 JSON 檔案匯入{item}",
+    "successMessage": {
+      "detail": "{count} 個{item}已匯入成功",
+      "detailDestination": "已將 {item} 匯入到 {destination}"
+    },
+    "successMessageWithToolsets": {
+      "detail": "{count} 個{item}已匯入成功並自動建立了相應的工具集"
+    },
+    "invalidConfig": {
+      "detail": "配置無效或無內容匯入。請確保 JSON 有效並重試。"
+    },
+    "errorMessage": {
+      "detail": "匯入失敗。請檢查 JSON 並重試。"
+    },
+    "partialError": {
+      "detail": "匯入 {failed} 個專案失敗: {items}"
+    },
+    "dragAndDropMessage": "拖放 JSON 檔案以匯入{item}。"
+  },
+  "team": {
+    "label": "團隊 | 團隊",
+    "createTeam": "建立@:team.label",
+    "inviteUserLabel": "邀請用戶",
+    "overview": "概覽",
+    "usersLabel": "用戶",
+    "allTeamLabel": "所有團隊",
+    "createSuccess": "團隊 {teamName} 建立成功。",
+    "member": "成員 | 成員",
+    "allUsers": "所有用戶",
+    "addTeamFormHeader": "建立新團隊",
+    "updateTeamFormHeader": "編輯團隊",
+    "addUsers": "新增用戶",
+    "updateUsers": "更新用戶",
+    "addUserToTeam": "新增用戶到團隊",
+    "teamNameLabel": "團隊名稱",
+    "teamNamePlaceholder": "輸入新團隊名稱",
+    "addTeamDescription": "建立新團隊以管理資源。",
+    "noUserInTeam": "此團隊未分配用戶。",
+    "editTeam": "編輯團隊",
+    "invited": "已邀請",
+    "shortDescription": "管理您的團隊和用戶。",
+    "empty": {
+      "description": "團隊用於管理資源。您可以將用戶新增到團隊以協作和共用資源存取權限。"
+    },
+    "deleteConfirmation": {
+      "header": "刪除團隊",
+      "message": "您確定要刪除",
+      "inputPlaceholder": "請輸入 {name} 以確認刪除。",
+      "rejectLabel": "@:cancel",
+      "acceptLabel": "@:delete"
+    },
+    "policies": {
+      "title": "策略 | 策略",
+      "toolbox": {
+        "title": "@:toolbox.title",
+        "description": "允許用戶使用工具箱功能"
+      },
+      "promptsLibrary": {
+        "title": "@:promptsLibrary.title",
+        "description": "允許用戶使用提示詞庫功能"
+      },
+      "persona": {
+        "title": "@:persona.title",
+        "description": "允許用戶使用角色功能"
+      },
+      "turnstile": {
+        "title": "@:turnstile.title",
+        "description": "允許用戶使用轉門功能"
+      },
+      "knowledgeStack": {
+        "title": "@:knowledgeStack.title",
+        "description": "允許用戶使用知識庫功能"
+      },
+      "remoteToolsConnector": {
+        "title": "@:remoteToolsConnector.title",
+        "description": "允許用戶使用@:remoteToolsConnector.title功能"
+      },
+      "rtd": {
+        "title": "@:rtd.title",
+        "description": "允許用戶使用@:rtd.title功能"
+      },
+      "attachments": {
+        "title": "@:attachments.title",
+        "description": "允許用戶使用@:attachments.title功能"
+      },
+      "forgeMode": {
+        "title": "@:forge.forgeMode.title",
+        "description": "允許用戶使用@:forge.forgeMode.title功能"
+      },
+      "insights": {
+        "title": "@:insights",
+        "description": "允許用戶使用@:insights功能"
+      },
+      "platformWeb": {
+        "title": "Msty Studio Web 存取",
+        "description": "允許用戶從 Web 瀏覽器存取 Msty Studio"
+      },
+      "platformDesktop": {
+        "title": "Msty Studio Desktop 存取",
+        "description": "允許使用者從桌面套用程式存取 Msty Studio"
+      },
+      "platformAccess": "平臺存取",
+      "modelHub": {
+        "description": "管理特定模型提供方的存取權限。"
+      }
+    },
+    "user": {
+      "noAvailableSeats": "您已達到邀請用戶的限制。",
+      "licenceAndAccess": {
+        "loggedInAsLabel": "登入身份",
+        "useSignInWithEmail": "安全登入連結將發送到提供的電子郵寄地址。Aurum 許可證持有者必須在使用此功能之前驗證其許可證金鑰。",
+        "continueWithlicenseLabel": "使用許可證金鑰繼續",
+        "sendLoginLink": "發送登入連結"
+      },
+      "teamUserFormHeader": "團隊用戶",
+      "invitationVerification": {
+        "inProgress": "正在驗證您的存取請求。請稍候",
+        "info": "您已被邀請加入 Msty Studio 的帳戶。",
+        "error": "出現問題，請聯繫您的帳戶管理員。"
+      },
+      "invitationInfo": "登入連結將發送到上面提供的電子郵件。",
+      "invitation": {
+        "successMessage": {
+          "detail": "用戶 {email} 已邀請。"
+        },
+        "invalidEmail": "@:email無效",
+        "errorMessageUserExist": "用戶已存在",
+        "errorMessage": {
+          "summary": "@:error",
+          "detail": "邀請 {email} 失敗。"
+        }
+      },
+      "fetch": {
+        "errorMessage": {
+          "summary": "@:error",
+          "detail": "無法載入用戶列表"
+        }
+      },
+      "delete": {
+        "successMessage": {
+          "detail": "用戶 {email} 刪除成功。"
+        },
+        "errorMessage": {
+          "summary": "@:error",
+          "detail": "無法刪除用戶 {email}"
+        }
+      },
+      "deleteConfirmation": {
+        "header": "刪除用戶",
+        "message": "您確定要刪除 {email} 嗎？",
+        "rejectLabel": "@:cancel",
+        "acceptLabel": "@:delete"
+      },
+      "assignUserToTeamLabel": "將用戶分配到團隊 {teamName}",
+      "assignUserToTeamSuccess": "已成功將 {user} 分配到團隊 {teamName}",
+      "unassignUserToTeamLabel": "從團隊中移除用戶",
+      "unassignUserToTeamMessage": "從團隊 {teamName} 中移除 {user}",
+      "selectUserToAddToTeamPlaceholder": "選擇要新增的用戶"
+    }
+  },
+  "updateItem": {
+    "action": "更新{item}",
+    "editAction": "編輯{item}",
+    "successMessage": {
+      "detail": "{item}已更新"
+    },
+    "errorMessage": {
+      "detail": "無法更新{item}"
+    }
+  },
+  "modelPurpose": {
+    "text": "文字",
+    "tools": "工具",
+    "vision": "視覺",
+    "coding": "編碼",
+    "embedding": "嵌入",
+    "streaming": "流式",
+    "image": "圖像",
+    "thinking": "思考"
+  },
+  "editModel": {
+    "inputLabels": {
+      "label": "標籤",
+      "purpose": "用途"
+    }
+  },
+  "environment": {
+    "selectPlaceholder": "選擇一個@:environment.title",
+    "new": "新@:environment.title",
+    "title": "環境 | 環境",
+    "empty": {
+      "description": "新增新環境以開始。"
+    },
+    "save": {
+      "successMessage": {
+        "detail": "@:environment.title已儲存"
+      },
+      "errorMessage": {
+        "detail": "@:environment.title儲存失敗"
+      }
+    },
+    "delete": {
+      "title": "刪除@:environment.title | 刪除@:environment.title",
+      "selected": "刪除選中的@:environment.title | 刪除選中的@:environment.title",
+      "deleteConfirmation": {
+        "header": "刪除@:environment.title",
+        "description": "您確定要刪除 {environmentName} 嗎？ | 您確定要刪除 {count} 個環境嗎？"
+      },
+      "successMessage": {
+        "detail": "@:environment.title已刪除 | @:environment.title已刪除"
+      },
+      "errorMessage": {
+        "detail": "無法刪除@:environment.title | 無法刪除@:environment.title"
+      }
+    },
+    "backup": {
+      "title": "備份@:environment.title",
+      "successMessage": {
+        "detail": "@:environment.title已備份"
+      },
+      "errorMessage": {
+        "detail": "備份@:environment.title失敗"
+      }
+    },
+    "restore": {
+      "title": "恢復@:environment.title",
+      "dragAndDropMessage": "拖放 Msty 環境檔以恢復環境。注意：所有現有環境將被刪除並替換為匯入的環境。",
+      "successMessage": {
+        "detail": "@:environment.title已恢復"
+      },
+      "errorMessage": {
+        "detail": "恢復@:environment.title失敗"
+      }
+    },
+    "quickSelect": {
+      "title": "快速選擇環境變數",
+      "selectPlaceholder": "搜尋或選擇變數以複製到剪切板"
+    }
+  },
+  "makeActive": {
+    "title": "設為活動{itemType}",
+    "isActive": "活動{itemType}",
+    "successMessage": {
+      "detail": "{itemName}現在是活動{itemType}"
+    },
+    "errorMessage": {
+      "detail": "無法將{itemName}設為活動{itemType}"
+    }
+  },
+  "moveItem": {
+    "action": "移動{item}",
+    "moveLocation": "移動 {count} 個{sourceType}到{item}",
+    "confirmation": {
+      "message": "您確定要移動選中的{item}嗎？"
+    },
+    "successMessage": {
+      "detail": "{item}已移動 | {item}已移動"
+    },
+    "errorMessage": {
+      "detail": "無法移動{item}"
+    },
+    "errrorMessage": {
+      "detail": "無法移動{item}"
+    },
+    "cannotDetermineTargetProject": "無法確定目標專案。",
+    "cannotDetermineTargetFolder": "無法確定目的資料夾。"
+  },
+  "deleteItem": {
+    "action": "刪除{item}",
+    "successMessage": {
+      "detail": "{item}已刪除"
+    },
+    "errorMessage": {
+      "summary": "@:error",
+      "detail": "無法刪除{item}"
+    }
+  },
+  "promptsLibrary": {
+    "title": "@:prompts庫",
+    "newPrompt": "新@:prompt",
+    "search": "@:search @:prompt",
+    "quickPrompt": "快捷@:prompt",
+    "saveToQuickPrompts": "儲存到快捷@:prompts",
+    "copyPrompt": "複製@:prompt到剪切板",
+    "shortcutUsage": "輸入 / 搜尋@:promptsLibrary.title",
+    "setDefaultFolder": "設為預設資料夾",
+    "unsetDefaultFolder": "取消設為預設資料夾",
+    "createRootFolder": "在根目錄新建資料夾",
+    "folder": "@:folder",
+    "prompt": "@:prompt",
+    "deleteAllPrompt": {
+      "title": "刪除所有@:prompt和@:folders",
+      "description": "這將清除整個@:promptsLibrary.title和@:folder@:folders。刪除後無法恢復。",
+      "successMessage": {
+        "detail": "所有@:prompt已刪除"
+      }
+    },
+    "empty": {
+      "title": "沒有可用的@:persona.title。",
+      "description": "通過新增或匯入新@:prompt開始。您也可以匯入預設@:prompts以開始。"
+    },
+    "import": {
+      "title": "匯入預設@:prompts",
+      "successMessage": {
+        "detail": "您現在可以在對話中使用匯入的提示詞。"
+      },
+      "copyMultiplePrompts": "複製 {count} 個@:prompts到剪切板",
+      "errorMessage": {
+        "detail": "匯入預設@:prompts失敗"
+      },
+      "copyErrorMessage": {
+        "detail": "複製@:prompt失敗。請重試。"
+      }
+    },
+    "folderForm": {
+      "updateSuccessMessage": {
+        "detail": "@:folder已更新"
+      },
+      "updateErrorMessage": {
+        "detail": "更新@:folder失敗"
+      },
+      "createSuccessMessage": {
+        "detail": "@:folder已建立"
+      },
+      "createErrorMessage": {
+        "detail": "建立@:folder失敗"
+      },
+      "deleteConfirmation": {
+        "header": "刪除@:folder",
+        "message": "您確定要刪除 {folderName} 及其所有子資料夾和提示詞嗎？",
+        "successMessage": {
+          "detail": "@:folder已刪除"
+        },
+        "errorMessage": {
+          "detail": "刪除@:folder失敗"
+        }
+      }
+    },
+    "promptForm": {
+      "addTitle": "新增新@:prompt",
+      "editTitle": "編輯@:prompt",
+      "promptName": "@:prompt名稱",
+      "promptDescription": "@:description",
+      "updateSuccessMessage": {
+        "detail": "@:prompt已更新"
+      },
+      "updateErrorMessage": {
+        "detail": "更新@:prompt失敗"
+      },
+      "createSuccessMessage": {
+        "detail": "@:prompt已建立"
+      },
+      "createErrorMessage": {
+        "detail": "建立@:prompt失敗"
+      },
+      "deleteConfirmation": {
+        "header": "刪除 {count} 個@:prompt",
+        "message": "您確定要刪除嗎？",
+        "successMessage": {
+          "detail": "@:prompt已刪除"
+        },
+        "errorMessage": {
+          "detail": "刪除@:prompt失敗"
+        }
+      }
+    }
+  },
+  "importDefault": {
+    "title": "匯入預設{item}",
+    "successMessage": {
+      "detail": "預設{item}已匯入"
+    },
+    "errorMessage": {
+      "detail": "匯入預設{item}失敗"
+    }
+  },
+  "contextIsolation": {
+    "isolate": "隔離@:context",
+    "unIsolate": "移除@:context隔離",
+    "label": "已隔離的@:context",
+    "clearAll": {
+      "title": "清除所有@:context隔離",
+      "successMessage": {
+        "detail": "所有@:context隔離已清除"
+      }
+    }
+  },
+  "responseMetrics": {
+    "title": "回應指標",
+    "longPressOrAltClickToCycle": "長按或 Alt 點擊以迴圈顯示指標"
+  },
+  "quickView": "快速查看",
+  "detailsView": "詳細查看",
+  "input": "輸入 | 輸入",
+  "output": "輸出 | 輸出",
+  "think": "思考",
+  "reasoning": {
+    "emptyNotice": "模型執行了內部思考但未返回摘要。要啟用思考摘要，請通過點擊模型選擇旁邊的編輯圖示為該模型套用 'Thinking' 標籤。"
+  },
+  "service": "服務 | 服務",
+  "localAIService": "本地AI服務",
+  "version": "版本 | 版本",
+  "invalidConfig": "配置無效。請輸入有效的 JSON 物件。",
+  "unsavedChanges": "未儲存的更改",
+  "saveChanges": "儲存更改",
+  "day": "天 | 天",
+  "every": "每",
+  "files": "檔案",
+  "file": "檔案 | @:files",
+  "reallyDelete": "真的要刪除嗎？",
+  "similarity": "相似度",
+  "saveAsDraft": "儲存為草稿",
+  "compose": "組合",
+  "embeddingModel": "嵌入模型",
+  "document": "文檔 | 文檔",
+  "matched": "匹配",
+  "active": "活動",
+  "inactive": "非活動",
+  "folderName": "@:folder名稱",
+  "addNewFolder": "新增新@:folder",
+  "editFolder": "編輯@:folder",
+  "errorGeneric": "發生錯誤。請稍後重試。檢查記錄以取得更多詳細資訊。",
+  "sharedService": {
+    "modelsPath": {
+      "title": "模型路徑",
+      "description": "這是 {service} 下載和查找模型的地方。您可以更新路徑以使用自訂資料夾。",
+      "edit": {
+        "title": "編輯模型路徑",
+        "description": "設定您的首選位置。",
+        "willRestartWarning": "注意：更改模型路徑將重啟 {service} 以使更改生效。",
+        "selectModelsPath": "選擇模型路徑",
+        "successMessage": {
+          "detail": "模型路徑已更新"
+        },
+        "errorMessage": {
+          "detail": "更新模型路徑失敗"
+        }
+      }
+    },
+    "quickPromptDialog": {
+      "title": "儲存到快捷@:prompts",
+      "description": "給您的系統提示詞一個簡短的標題。它將被新增到快捷提示詞以便輕鬆重用。",
+      "nameLabel": "快捷@:prompt名稱",
+      "successMessage": "系統提示詞已儲存到快捷提示詞。",
+      "errorMessage": "儲存系統提示詞到快捷提示詞失敗。",
+      "emptyPromptMessage": "在儲存到快捷提示詞之前，請新增一些系統提示詞文字。"
+    },
+    "serviceHealth": {
+      "title": "服務健康",
+      "description": "{service} 的狀態。遇到問題？嘗試重啟或查看記錄。",
+      "serviceAction": {
+        "restartService": "重啟服務",
+        "stopService": "停止服務",
+        "startService": "啟動服務",
+        "errorMessage": {
+          "detail": "在 {service} 上執行 {action} 失敗。請檢查記錄以取得更多詳細資訊。"
+        },
+        "restartSuccessMessage": {
+          "detail": "{service} 已重啟"
+        }
+      },
+      "serviceStatus": {
+        "starting": "正在啟動",
+        "running": "正在執行",
+        "stopped": "已停止"
+      }
+    },
+    "serviceEndpoint": {
+      "title": "服務端點 | 服務端點",
+      "description": {
+        "base": "{service} 的本地端點。使用此端點從設備上執行的其他套用程式連接。",
+        "serviceIsNotRunning": "一旦服務執行，位址將顯示在這裡。",
+        "serviceIsAvailableOnNetwork": "因為服務在網路上可用，您也可以使用網路服務 URL 從其他設備連接到它。"
+      },
+      "copyNetworkURL": "複製網路 URL"
+    },
+    "serviceVersion": {
+      "title": "服務版本",
+      "description": "顯示 {service} 的當前版本。為確保最佳性能和存取新功能，請保持其更新。如果需要，也可以重新安裝。",
+      "forceUpdate": {
+        "title": "強制更新 {service}",
+        "forCuda": "為 CUDA 強制更新 {service}",
+        "forROCm": "為 ROCm 強制更新 {service}",
+        "successMessage": {
+          "detail": "{service} 已更新到最新版本 {version}"
+        },
+        "errorMessage": {
+          "detail": "更新 {service} 失敗。請檢查記錄以取得更多詳細資訊。"
+        }
+      },
+      "removeService": {
+        "title": "移除 {service}",
+        "confirmationHeader": "移除 {service}",
+        "confirmationMessage": "您確定要移除 {service} 嗎？這將刪除服務二進位檔案及其所有配置。您可以稍後從設定頁面重新安裝。",
+        "confirmationAccept": "移除",
+        "successMessage": {
+          "detail": "{service} 已成功移除"
+        },
+        "errorMessage": {
+          "detail": "移除 {service} 失敗。請檢查記錄以取得更多詳細資訊。"
+        }
+      }
+    },
+    "serviceConfigurations": {
+      "title": "服務配置",
+      "description": "這些配置在 {service} 啟動時套用。儲存任何更改後，{service} 將自動重啟。",
+      "enableNetworkAccess": {
+        "title": "啟用網路存取",
+        "description": "允許網路上的其他設備通過此設備的 IP 位址存取此 {service}。"
+      },
+      "allowMstyStudioAccess": {
+        "title": "允許從 Msty Studio 存取",
+        "description": "允許從 Msty Studio Web 連接到此套用以存取 {service}。"
+      },
+      "captureServiceLogs": {
+        "title": "捕獲服務記錄",
+        "description": "啟用記錄記錄以捕獲服務資料進行調試。僅在必要時使用此選項。"
+      },
+      "unsavedChanges": {
+        "message": "您在 {service} 配置中有未儲存的更改。儲存後，{service} 將使用新配置重啟。",
+        "saveChanges": "儲存更改並重啟服務",
+        "successMessage": {
+          "detail": "{service} 配置已儲存且服務已重啟"
+        },
+        "errorMessage": {
+          "detail": "儲存 {service} 配置失敗。請檢查記錄以取得更多詳細資訊。"
+        }
+      }
+    }
+  },
+  "keyboardShortcuts": {
+    "title": "鍵盤快速鍵",
+    "description": "自訂快速鍵以快速存取功能",
+    "search": "搜尋快速鍵...",
+    "searchByShortcut": "按快速鍵搜尋",
+    "searchByName": "按名稱搜尋",
+    "pressShortcut": "按任意複合鍵...",
+    "pressKeys": "按鍵...",
+    "notSet": "未設定",
+    "edit": "編輯快速鍵",
+    "clear": "清除",
+    "global": "全域",
+    "saved": "快速鍵已儲存",
+    "error": "儲存快速鍵出錯",
+    "reset": "快速鍵已重設",
+    "resetToDefault": "重設為預設",
+    "resetAll": "重設所有快速鍵",
+    "allReset": "所有快速鍵已重設為預設",
+    "noResults": "未找到快速鍵",
+    "conflictWith": "與 {name} 衝突",
+    "categories": {
+      "all": "全部",
+      "general": "常規",
+      "navigation": "導航",
+      "appearance": "@:settings.appearance",
+      "conversation": "對話"
+    },
+    "resetAllConfirm": {
+      "title": "重設所有快速鍵",
+      "message": "您確定要將所有鍵盤快速鍵重設為其預設值嗎？"
+    },
+    "help": {
+      "title": "鍵盤快速鍵",
+      "customizeButton": "自訂快速鍵"
+    },
+    "contextual": "上下文相關",
+    "systemWide": "系統範圍",
+    "macOptionHint": "Option 鍵快速鍵在 Msty 中有效。如果它們產生特殊字元，請檢查 系統設定 > 鍵盤 > 輸入法",
+    "example": {
+      "title": "鍵盤快速鍵示例",
+      "description": "此元件演示如何在您的元件中註冊和使用鍵盤快速鍵。",
+      "registeredShortcuts": "已註冊快速鍵：",
+      "exampleAction1": "示例操作 1",
+      "scopedAction": "作用域操作",
+      "actions": "操作：",
+      "updateFirstShortcut": "更新第一個快速鍵",
+      "testConflictDetection": "測試衝突檢測",
+      "actionLog": "操作記錄：",
+      "noActionsYet": "暫無操作。嘗試按快速鍵！",
+      "developerNotes": {
+        "title": "開發者說明：",
+        "items": [
+          "組件卸載時自動清理快速鍵",
+          "使用元件作用域的快速鍵以避免 ID 衝突",
+          "自動處理特定平臺的綁定（Mac 上的 Cmd，Windows 上的 Ctrl）",
+          "在註冊可能與現有快速鍵衝突的快速鍵之前檢查衝突",
+          "快速鍵可以是全域的（隨處工作）或特定於上下文的"
+        ]
+      }
+    },
+    "splitRemoval": {
+      "selectSplitToRemove": "選擇要移除的拆分",
+      "pressKeysToCancel": "按",
+      "remove": "移除"
+    }
+  },
+  "miniMapActions": {
+    "noMessageSelectedWarning": {
+      "summary": "未選擇訊息",
+      "detail": "選擇至少一條訊息以執行任何操作"
+    },
+    "exportOrCopyMessage": {
+      "exportMessage": "匯出訊息 | 匯出訊息",
+      "copyMessage": "複製訊息 | 複製訊息",
+      "asJson": "為 JSON",
+      "asMarkdown": "為 Markdown",
+      "successMessage": "已成功將訊息{action}為 {format}",
+      "action": {
+        "export": "匯出",
+        "copy": "複製"
+      }
+    }
+  },
+  "reIndexItem": {
+    "action": "重新索引{item}",
+    "successMessage": {
+      "detail": "{item}重新索引成功"
+    },
+    "errorMessage": {
+      "detail": "重新索引{item}失敗"
+    },
+    "confirmationMessage": "您確定要重新索引{item}嗎？"
+  },
+  "recent": "最近 | 最近",
+  "knowledgeStack": {
+    "title": "知識庫 | 知識庫",
+    "contexts": "@:knowledgeStack.title上下文",
+    "composeProgress": {
+      "processing": "正在處理：{fileName}",
+      "composing": "正在組合",
+      "composingEllipsis": "正在組合…",
+      "files": "檔案",
+      "notes": "筆記",
+      "youtube": "YouTube",
+      "folders": "資料夾",
+      "overallProgress": "總體進度",
+      "inFlight": "處理中："
+    },
+    "itemStatus": {
+      "ignoredForRetrieval": "檢索時已忽略"
+    },
+    "cloudShare": {
+      "importingFolder": "正在匯入資料夾：{name}",
+      "processingCount": "正在處理 {count} 個知識庫"
+    },
+    "saveEdits": {
+      "title": "儲存編輯",
+      "confirmation": {
+        "header": "儲存編輯並標記為草稿",
+        "message": "您確定要儲存編輯嗎？這會將知識庫標記為草稿，並防止在再次處理之前在生產中使用它。"
+      }
+    },
+    "selectFolderForImport": "選擇匯入@:knowledgeStack.title的位置",
+    "newKnowledgeStack": "新@:knowledgeStack.title",
+    "addDescription": "新增描述",
+    "editDescription": "編輯描述",
+    "descriptionPlaceholder": "為此知識庫新增描述...",
+    "autoSaving": "正在儲存...",
+    "autoSaved": "已儲存 {time}",
+    "basicInfo": "基本資訊",
+    "similarityThreshold": "@:similarity閾值",
+    "similarityMatch": "@:similarity匹配",
+    "unsavedChanges": {
+      "confirmNavigation": "您有未儲存的更改。您確定要離開此頁面嗎？您的更改將丟失。",
+      "confirmReload": "如果您重新載入頁面，您的未儲存更改將丟失。"
+    },
+    "empty": {
+      "title": "未選擇@:knowledgeStack.title",
+      "description": "知識庫讓您可以引入檔、資料夾、筆記和 YouTube 字幕，使它們通過檢索增強生成 (RAG) 可搜尋並可用於聊天"
+    },
+    "selectOrCreate": "選擇一個@:knowledgeStack.title",
+    "selectFromTreeOrCreate": "從樹中選擇一個@:knowledgeStack.title或建立一個新的",
+    "folderForm": {
+      "addTitle": "新增新@:folder",
+      "editTitle": "編輯@:folder",
+      "editIgnoreRules": "編輯忽略規則",
+      "editIgnoreRulesTitle": "忽略規則",
+      "ignoreRulesDescription": "定義模式以排除檔和資料夾。",
+      "ignoreRulesHierarchySimple": "優先順序：本地 .mstyignore/.gitignore → 資料夾規則 → 系統預設",
+      "ignoreRulesPlaceholder": "# 在此輸入模式，每行一個\\n# 示例: *.log, node_modules/, !important.txt",
+      "showExamples": "顯示示例和説明",
+      "ignoreExample1": "記錄檔",
+      "ignoreExample2": "所有目錄中的暫存檔案",
+      "ignoreExample3": "整個目錄",
+      "ignoreExample4": "例外模式",
+      "ignoreExample5": "多種圖像類型",
+      "ignoreExample6": "test 及其子目錄中的所有檔",
+      "ignoreExample7": "不區分大小寫的匹配",
+      "ignoreExample8": "以 secret- 開頭的檔案",
+      "insertTemplate": "使用範本",
+      "clearContent": "全部清除",
+      "ignoreRulesUpdated": "忽略規則已更新",
+      "ignoreRulesUpdateError": "更新忽略規則失敗",
+      "deleteConfirmation": {
+        "header": "刪除@:folder '{folderName}'",
+        "message": "您確定要刪除此資料夾嗎？其中的所有知識庫都將被移除。此操作無法撤銷。",
+        "successMessage": {
+          "detail": "@:folder已刪除"
+        },
+        "errorMessage": {
+          "detail": "刪除@:folder失敗"
+        }
+      },
+      "updateErrorMessage": {
+        "detail": "更新@:folder失敗"
+      },
+      "createSuccessMessage": {
+        "detail": "@:folder已建立"
+      },
+      "createErrorMessage": {
+        "detail": "建立@:folder失敗"
+      }
+    },
+    "setDefaultFolder": "設為預設資料夾",
+    "unsetDefaultFolder": "取消設為預設資料夾",
+    "createRootFolder": "在根目錄新建資料夾",
+    "knowledgeStackForm": {
+      "addTitle": "新增新@:knowledgeStack.title",
+      "deleteConfirmation": {
+        "header": "刪除@:knowledgeStack.title",
+        "message": "您確定要刪除此知識庫嗎？其中的所有專案都將被移除。此操作無法撤銷。"
+      }
+    },
+    "deleteAllKnowledgeStack": {
+      "title": "刪除所有@:knowledgeStack.title",
+      "description": "這將清除整個@:knowledgeStack.title{'.'} 刪除後無法恢復。",
+      "successMessage": {
+        "detail": "所有@:knowledgeStack.title已刪除"
+      },
+      "errorMessage": {
+        "detail": "刪除所有@:knowledgeStack.title失敗"
+      }
+    },
+    "chunksConsole": {
+      "chunk": "塊 | @:knowledgeStack.chunksConsole.chunks",
+      "chunks": "塊",
+      "title": "@:knowledgeStack.chunksConsole.chunks控制台",
+      "description": "使用此控制台瞭解您的知識庫 { title } 如何被使用，以及聊天時哪些塊被發送給模型。如果您認為某個塊不相關或無用，也可以將其刪除。",
+      "queryText": "查詢文字",
+      "similarityFilter": {
+        "title": "@:similarity",
+        "all": "全部",
+        "highest": "最高",
+        "high": "高",
+        "medium": "中",
+        "low": "低"
+      },
+      "matchCount": "@:knowledgeStack.chunksConsole.chunks數量",
+      "sourceFile": "原始檔案",
+      "sourceNote": "源筆記",
+      "sourceVideo": "源視頻",
+      "source": "來源",
+      "score": "得分",
+      "searchResults": "搜尋結果",
+      "noResultsFound": "未找到搜尋結果。嘗試調整您的查詢或搜尋設定。",
+      "noResultsAfterFilter": "沒有結果匹配當前的相似度篩檢程式。嘗試調整篩檢程式以顯示更多結果。",
+      "deleteChunk": {
+        "successMessage": {
+          "detail": "@:knowledgeStack.chunksConsole.chunk已刪除"
+        }
+      },
+      "searchType": {
+        "title": "搜尋類型",
+        "hybrid": "混合搜尋",
+        "semantic": "語義搜尋",
+        "keyword": "關鍵字搜尋"
+      },
+      "filterDisclaimer": "此篩檢程式僅影響下方顯示的結果。它不會更改實際查詢。",
+      "tooltip": {
+        "scrubbed": "內容已清洗以移除 PII",
+        "cached": "使用了緩存的清洗版本",
+        "fresh": "剛清洗的內容"
+      },
+      "runQuery": "執行查詢"
+    },
+    "addon": {
+      "title": "@:knowledgeStack.title",
+      "selectedCount": "已選 {count} 個",
+      "selectedStacks": "已選知識庫",
+      "searchPlaceholder": "搜尋知識庫...",
+      "recentlyUpdated": "最近更新",
+      "searchResults": "搜尋結果",
+      "noResults": "未找到知識庫",
+      "noStacks": "沒有可用的知識庫",
+      "noDescription": "無描述",
+      "numberOfChunks": "@:knowledgeStack.chunksConsole.chunks數量",
+      "searchType": "搜尋類型",
+      "synthesizePrompt": "合成查詢",
+      "enablePiiScrubbing": "啟用 PII 清洗",
+      "fullContentContextLimit": "最大完整內容上下文",
+      "fullContentContextWarning": "完整內容上下文會顯著增加 Token 使用量並可能影響性能",
+      "manageStacks": "管理知識庫",
+      "onlyCompletedStacks": "只能選擇已完成的知識庫"
+    },
+    "totalFiles": "總檔案數",
+    "vectorDimensions": "向量維度",
+    "wordCount": "字數",
+    "readingTime": "閱讀時間",
+    "embeddingModel": {
+      "title": "嵌入模型",
+      "noModel": "未配置嵌入模型",
+      "modelMissing": "未找到模型 {modelId}",
+      "providerRemapped": "模型提供方已自動重新映射",
+      "changeModel": "更改查詢嵌入模型",
+      "selectModel": "選擇查詢嵌入模型",
+      "missingModelWarning": "此知識庫的原始嵌入模型不可用。請選擇新模型。",
+      "providerRemappedInfo": "嵌入模型提供方已自動重新映射到相容的提供方。",
+      "currentModel": "當前模型",
+      "noModelConfigured": "未配置模型",
+      "selectNewModel": "選擇新模型",
+      "defaultLocal": "預設 (本地)"
+    },
+    "buckets": {
+      "files": {
+        "title": "@:files",
+        "description": "新增 .pdf, .csv, .md, .json, .jsonl, .xlsx, .docx, .rtf, .txt, .pptx 或任何其他支持的檔案類型。",
+        "dropZoneText": "拖放檔案到此處",
+        "browseFiles": "流覽檔",
+        "dropHint": "拖放檔案到此處"
+      },
+      "folders": {
+        "title": "@:folders 和 Obsidian 倉庫",
+        "description": "新增包含檔的資料夾。您也可以拖放 Obsidian 倉庫。",
+        "dropZoneText": "拖放資料夾到此處",
+        "browseFolders": "流覽資料夾",
+        "liveMode": "即時模式",
+        "liveModeDescription": "資料夾受監控，更改將自動更新知識庫",
+        "duplicateFolder": "重複資料夾",
+        "alreadyAdded": "資料夾已新增",
+        "folderAlreadyExists": "此資料夾已新增到@:knowledgeStack.title",
+        "folderAlreadyAdded": "資料夾 '{path}' 已新增",
+        "folderProcessed": "資料夾已處理",
+        "filesAdded": "{count} 個檔新增成功",
+        "onlyFoldersAllowed": "此處只能新增資料夾。請選擇資料夾而不是單個檔。",
+        "selectFolder": "選擇資料夾",
+        "useDirectoryPicker": "在 Web 模式下，請使用流覽按鈕選擇資料夾",
+        "processed": "已處理",
+        "processingError": "處理資料夾出錯",
+        "folderExplorer": "資料夾資源管理器",
+        "showIgnoredFiles": "顯示忽略的檔",
+        "noFolders": "尚未新增資料夾",
+        "refresh": "重新整理",
+        "showInFileManager": "在檔案管理員中顯示",
+        "remove": "移除",
+        "loadError": "載入資料夾失敗",
+        "removed": "資料夾已移除",
+        "folderRemoved": "'{name}' 已從知識庫中移除",
+        "removeError": "移除資料夾失敗",
+        "ignored": "已忽略",
+        "loading": "正在載入...",
+        "loadingContents": "正在載入資料夾內容...",
+        "confirmRemove": "您確定要從知識庫中移除 \"{name}\" 嗎？資料夾及其檔將保留在您的系統中。",
+        "expandFolder": "展開資料夾",
+        "collapseFolder": "折疊資料夾",
+        "folderIgnored": "根據 .mstyignore 或 .gitignore 規則，此資料夾已被忽略",
+        "fileIgnored": "根據 .mstyignore 或 .gitignore 規則，此檔已被忽略",
+        "actionMenu": "操作功能表",
+        "emptyFolder": "空資料夾",
+        "itemCount": "{count} 個專案 | {count} 個專案",
+        "hiddenItemCount": "{count} 個隱藏專案 | {count} 個隱藏專案"
+      },
+      "obsidianVaults": {
+        "title": "Obsidian 倉庫",
+        "description": "將 Obsidian 倉庫新增到您的知識庫。Msty 將索引倉庫中的所有筆記。",
+        "dropZoneText": "拖放 Obsidian 倉庫到此處",
+        "browseVaults": "流覽 Obsidian 倉庫"
+      },
+      "notes": {
+        "title": "筆記",
+        "description": "新增您的筆記到知識庫。這些筆記將被分塊並嵌入以便進行語義搜尋。",
+        "addNote": "新增筆記",
+        "titlePlaceholder": "輸入筆記標題...",
+        "contentPlaceholder": "輸入筆記內容...",
+        "empty": "尚未新增筆記。點擊 '新增筆記' 開始。",
+        "unsaved": "尚未儲存"
+      },
+      "youTubeLinks": {
+        "title": "YouTube 連結",
+        "description": "新增 YouTube 視頻連結以索引其字幕。Msty 將取得字幕並使其可搜尋。",
+        "dropZoneText": "拖放 YouTube 連結到此處或在下方貼上",
+        "inputPlaceholder": "在此貼上 YouTube URL (空格或逗號分隔)...",
+        "inputPlaceholderWithDetected": "在此貼上 YouTube URL (檢測到 {count} 個) | 在此貼上 YouTube URL (檢測到 {count} 個)",
+        "autoDetection": "自動拉取檢測到的 URL",
+        "detectedCount": "檢測到 {count} 個 URL | 檢測到 {count} 個 URL",
+        "detectedUnpulledUrls": "檢測到 {count} 個 YouTube URL 但尚未拉取 | 檢測到 {count} 個 YouTube URL 但尚未拉取"
+      }
+    },
+    "itemActions": {
+      "markForReprocessing": "標記為重新處理",
+      "lockTemporary": "臨時鎖定",
+      "lockPermanent": "永久鎖定",
+      "unlock": "解鎖",
+      "ignoreRetrieval": "忽略檢索",
+      "unignoreRetrieval": "包含在檢索中",
+      "moreActions": "更多操作"
+    },
+    "loadMode": {
+      "title": "載入模式",
+      "dialogTitle": "選擇載入模式",
+      "distribution": "分佈",
+      "dialogDescription": "選擇在知識庫組合期間應如何載入此檔。",
+      "staticFiles": "靜態檔",
+      "dynamicFiles": "動態檔",
+      "syncFiles": "同步檔案",
+      "totalFiles": "總檔案數",
+      "specialModes": "特殊模式",
+      "specialModesRatio": "特殊模式比例",
+      "static": {
+        "label": "靜態模式",
+        "description": "使用檔新增時的緩存版本。快速且可預測，但不反映最近的更改。",
+        "shortDescription": "從初始索引載入緩存內容",
+        "badge": "預設"
+      },
+      "dynamic": {
+        "label": "動態模式",
+        "description": "每次組合時載入最新檔內容。稍慢但始終最新。",
+        "shortDescription": "每次組合載入新鮮內容",
+        "badge": "推薦"
+      },
+      "sync": {
+        "label": "同步模式",
+        "description": "監視檔更改並自動重新組合。最適合小型、頻繁更新的檔。",
+        "shortDescription": "檔更改時自動重新組合",
+        "badge": "昂貴"
+      }
+    },
+    "syncMode": {
+      "start": "啟動同步模式",
+      "pause": "暫停同步模式",
+      "pauseAll": "全部暫停",
+      "started": "同步模式已啟動",
+      "startedDetail": "正在監視 {name} 的檔案更改",
+      "stopped": "同步模式已暫停",
+      "stoppedDetail": "檔監視已暫停",
+      "startFailed": "啟動同步模式失敗",
+      "startFailedDetail": "請確保知識庫中有標記為同步模式的檔",
+      "allPaused": "所有同步模式已暫停",
+      "allPausedDetail": "所有知識庫的檔監視已停止",
+      "active": "{count} 個活動 | {count} 個活動",
+      "activeTitle": "活動同步模式",
+      "filesWatching": "{count} 個檔案 | {count} 個檔案",
+      "filesCount": "{count} 個檔案 | {count} 個檔案",
+      "startedTime": "開始於 {time}",
+      "totalStats": "{stacks} 個知識庫，{files} 個檔案 | {stacks} 個知識庫，{files} 個檔案",
+      "hoursAgo": "{hours}小時前",
+      "daysAgo": "{days}天前"
+    },
+    "analytics": {
+      "title": "分析與洞察",
+      "lastComposed": "上次組合",
+      "sections": "分析部分",
+      "performanceTimings": "性能計時",
+      "summaryStatistics": "摘要統計",
+      "contentBreakdown": "內容細分",
+      "querySettings": "查詢設定",
+      "readingStatistics": "閱讀統計",
+      "noAnalyticsAvailable": "無可用分析",
+      "noAnalyticsDescription": "組合此知識庫後將提供分析。",
+      "noSectionsSelected": "未選擇分析部分",
+      "noSectionsSelectedDescription": "請選擇上方的一個或多個分析部分以查看關於您知識庫的見解。",
+      "selectAllSections": "選擇所有部分",
+      "timings": {
+        "loadingItems": "正在載入專案",
+        "splittingChunks": "正在拆分@:knowledgeStack.chunksConsole.chunks",
+        "embeddingChunks": "正在嵌入@:knowledgeStack.chunksConsole.chunks",
+        "composingStack": "正在組合知識庫",
+        "totalTime": "總時間",
+        "parallelNote": "某些操作可能並行執行，因此單個時間之和可能不等於總時間",
+        "fileReading": "檔案讀取",
+        "databaseWrite": "資料庫寫入"
+      },
+      "stats": {
+        "numberOfItems": "專案數量",
+        "totalChunks": "總@:knowledgeStack.chunksConsole.chunks",
+        "availableChunks": "可用@:knowledgeStack.chunksConsole.chunks",
+        "skippedChunks": "跳過的@:knowledgeStack.chunksConsole.chunks",
+        "wordCount": "字數",
+        "characterCount": "字元數",
+        "readingTime": "閱讀時間"
+      },
+      "ignoredItems": "已忽略專案",
+      "ignoredForRetrieval": "檢索時已忽略",
+      "ignoredItemsDescription": "這些專案在搜尋和檢索操作中被排除",
+      "ignoredPercentage": "忽略專案的百分比",
+      "ofTotal": "共 {total}",
+      "files": "檔案",
+      "notes": "筆記",
+      "youTubeLinks": "YouTube 視頻",
+      "noIgnoredItems": "無忽略專案",
+      "allItemsIncluded": "此知識庫中的所有專案都包含在搜尋和檢索中",
+      "recommendation": "建議",
+      "contentTypes": {
+        "files": "檔案",
+        "obsidianVaults": "OBSIDIAN 倉庫",
+        "folders": "資料夾",
+        "notes": "筆記",
+        "youTubeLinks": "YOUTUBE 連結"
+      },
+      "piiScrubbing": {
+        "title": "PII 清洗",
+        "totalChunks": "總@:knowledgeStack.chunksConsole.chunks",
+        "scrubbedChunks": "已清洗@:knowledgeStack.chunksConsole.chunks",
+        "cachedChunks": "緩存@:knowledgeStack.chunksConsole.chunks",
+        "coverage": "覆蓋率",
+        "progress": "清洗進度",
+        "loadAnalytics": "載入分析",
+        "failedToLoadAnalytics": "載入 PII 分析資料失敗",
+        "analyticsNotLoaded": "PII 分析未載入",
+        "clickToViewAnalytics": "點擊“載入分析”以查看 PII 清洗統計資訊",
+        "scoreTooltip": "此分數反映了 PII 清洗對您的知識庫的套用程度。分數越高意味著更多塊已被處理以移除 PII。",
+        "optionalDescription": "PII 清洗是可選的。僅當您的內容包含敏感個人資訊時，才在查詢設定中啟用它。",
+        "protectionDescription": "衡量知識庫中敏感資訊的保護程度",
+        "status": {
+          "notEnabled": "未啟用",
+          "wellProtected": "保護良好",
+          "partiallyProtected": "部分保護",
+          "limitedProtection": "有限保護",
+          "minimalProtection": "最低保護"
+        },
+        "insights": {
+          "excellentPrivacy": "優秀的隱私保護 - 幾乎所有內容都已安全",
+          "goodPrivacy": "良好的隱私保護 - 大多數內容已安全",
+          "partialPrivacy": "部分隱私保護 - 考慮檢查設定",
+          "limitedPrivacy": "有限的隱私保護 - 檢查敏感內容",
+          "notEnabled": "PII 清洗未啟用。如果您的內容不包含敏感個人資訊，這完全沒問題。",
+          "whenToEnable": "僅當您的知識庫包含姓名、位址、電話號碼、電子郵件或其他個人資料時，才考慮啟用 PII 清洗。",
+          "significantReduction": "顯著的內容減少 ({percentage}%) - 發現大量 PII",
+          "moderateReduction": "中度的內容減少 ({percentage}%) - 移除了一些 PII",
+          "minimalReduction": "極少的內容減少 ({percentage}%) - 檢測到少量 PII",
+          "noContentChange": "無內容大小變化 - 未檢測到或移除 PII",
+          "allChunksProcessed": "所有塊已成功處理",
+          "nearlyAllProcessed": "幾乎所有塊已成功處理",
+          "mostProcessed": "大多數塊已處理 - 一些可能需要關注",
+          "incompleteProcessing": "處理不完整 - 檢查 PII 清洗配置",
+          "largeKnowledgeBase": "大型知識庫 - 考慮增加 PII 檢測覆蓋率",
+          "manyUnprocessed": "許多未處理的塊 - 檢查 PII 清洗設定",
+          "optionalFeature": "PII 清洗是可選的。如果您的內容包含敏感資訊（如姓名、電子郵件或電話號碼），請在查詢設定中啟用它。",
+          "privacyOption": "PII 清洗有助於保護敏感資訊。它是可選的，如果需要，可以在查詢設定中啟用。"
+        },
+        "labels": {
+          "securityStatus": "安全狀態",
+          "privacyStatus": "隱私狀態",
+          "whenToEnable": "何時啟用",
+          "contentImpact": "內容影響",
+          "processingEfficiency": "處理效率",
+          "scaleRecommendation": "規模建議",
+          "coverageRecommendation": "覆蓋率建議",
+          "optionalFeature": "可選功能",
+          "privacyOption": "隱私選項"
+        }
+      },
+      "querySettingsDetails": {
+        "searchType": "搜尋類型",
+        "numberOfChunks": "@:knowledgeStack.chunksConsole.chunks數量",
+        "promptPrefix": "提示詞首碼"
+      },
+      "privacyOptimizationScore": "隱私優化得分",
+      "piiProtectionLevel": "PII 保護級別",
+      "piiScrubbingStatus": "PII 清洗狀態",
+      "unscrubbedChunks": "未清洗的@:knowledgeStack.chunksConsole.chunks",
+      "originalSize": "原始大小",
+      "processedSize": "處理後大小",
+      "sizeReduction": "大小減少",
+      "privacyInsights": "隱私@:insgiths",
+      "dataModified": "資料已修改",
+      "showOutdatedData": "仍顯示過時資料",
+      "contentDistribution": "內容分佈",
+      "contentContribution": "{label} 貢獻了所有塊的 {percentage}%",
+      "processingIssue": "處理問題",
+      "lowEfficiency": "{label} 效率低 ({efficiency}%)",
+      "dataQualityIssue": "資料品質問題",
+      "highSkipRates": "{count} 種內容類別型跳過率高",
+      "contentDiversity": "內容多樣性",
+      "singleContentType": "單一內容類別型 - 考慮多樣化來源",
+      "excellentDiversity": "跨多種來源類型的優秀內容多樣性",
+      "optimizationTip": "優化提示",
+      "reduceChunkSize": "將塊大小減少到 800-1200 個字元以取得更好的內容細微性",
+      "increaseChunkSize": "將塊大小增加到 1500-2000 個字元以取得更好的效率",
+      "embeddingThroughput": "嵌入輸送量",
+      "chunksPerSecond": "{rate} 塊/秒 ({time}毫秒/塊)",
+      "searchStrategy": "搜尋策略",
+      "balancedSearch": "結合關鍵字+語義搜尋的平衡方法",
+      "semanticSearch": "AI 驅動的語義搜尋 - 最適合概念查詢",
+      "keywordSearch": "傳統關鍵字搜尋 - 最適合精確術語",
+      "retrievalVolume": "檢索量",
+      "lowChunkCount": "極低的塊數量可能會錯過相關資訊",
+      "highChunkCount": "高塊數量可能包含噪音並減慢回應速度",
+      "optimalChunkCount": "平衡檢索的最佳塊數量",
+      "contentFiltering": "內容過濾",
+      "relaxedFiltering": "寬鬆過濾 - 可能包含關係不大的內容",
+      "strictFiltering": "嚴格過濾 - 高度集中的結果",
+      "moderateFiltering": "相關內容的平衡過濾",
+      "guidedContext": "引導上下文",
+      "customPromptPrefix": "自訂提示詞首碼將引導查詢解釋",
+      "lockIndicator": "鎖定指示器",
+      "allItemsCanBeReprocessed": "所有專案均可重新處理",
+      "itemsPartiallyLocked": "{percentage}% 的專案已鎖定",
+      "mostItemsLocked": "大多數專案已鎖定 - 重新處理能力有限",
+      "privacySecurity": "隱私與安全",
+      "privacyProtectionEnabled": "已為敏感性資料啟用隱私保護",
+      "noPiiScrubbing": "無 PII 清洗 - 確保內容不敏感",
+      "scaleOptimization": "規模優化",
+      "largeKnowledgeBase": "大型知識庫 - 增加塊數量以取得更好的覆蓋率",
+      "smallKnowledgeBase": "小型知識庫 - 考慮減少塊數量",
+      "performanceProfile": "性能概況",
+      "optimizedForSpeed": "針對快速回應優化的配置",
+      "optimizedForQuality": "針對高品質結果優化的配置",
+      "highLockRate": "高鎖定率",
+      "lockedItemsPercentage": "{percentage}% 的專案已鎖定且不會重新處理",
+      "unlockRecommendation": "如果需要更新，請考慮解鎖臨時鎖定的專案",
+      "overHalfLocked": "超過 50% 的專案已鎖定。這可能會顯著降低知識庫保持更新的能力。",
+      "lockStatus": "鎖定狀態",
+      "totalItems": "總專案",
+      "unlocked": "已解鎖",
+      "temporarilyLocked": "臨時鎖定",
+      "permanentlyLocked": "永久鎖定",
+      "lockStatusByContentType": "按內容類別型的鎖定狀態",
+      "tempLocked": "臨時鎖定",
+      "permLocked": "永久鎖定",
+      "lockStatusInsights": "鎖定狀態@:insights",
+      "processingEfficiency": "處理效率",
+      "contentInsights": "內容@:insights",
+      "compositionOptimizationScore": "組合優化得分",
+      "compositionInsights": "組合@:insights",
+      "performanceInsights": "性能@:insights",
+      "processingPhaseDetails": "處理階段詳情",
+      "loadingItems": "正在載入專案",
+      "splittingChunks": "正在拆分@:knowledgeStack.chunksConsole.chunks",
+      "embeddingChunks": "正在嵌入@:knowledgeStack.chunksConsole.chunks",
+      "fileReading": "檔案讀取",
+      "databaseWrite": "資料庫寫入",
+      "composingStack": "正在組合知識庫",
+      "totalProcessingTime": "總處理時間",
+      "totalLockedItems": "總鎖定專案",
+      "efficiency": "效率",
+      "loadMode": {
+        "title": "載入模式分析",
+        "description": "知識庫中的檔案載入行為",
+        "distribution": "載入模式分佈",
+        "totalFiles": "總檔案數",
+        "staticFiles": "靜態模式",
+        "dynamicFiles": "動態模式",
+        "syncFiles": "同步模式",
+        "specialModes": "特殊模式",
+        "specialModesRatio": "特殊模式 %",
+        "status": "狀態",
+        "active": "活動",
+        "inactive": "非活動",
+        "breakdown": "視覺化細分",
+        "noFiles": "此知識庫中沒有檔",
+        "desktopOnly": "載入模式選項僅在桌面套用程式中可用",
+        "notAvailable": "載入模式選項僅在桌面套用程式中可用",
+        "noSpecialModes": "所有檔都使用靜態模式。為檔啟用動態或同步模式以使用最新內容。",
+        "syncActive": "同步模式活動",
+        "syncActiveDetails": "正在監視 {files} • 開始於 {time}",
+        "staticDescription": "從初始索引載入緩存內容",
+        "dynamicDescription": "每次組合載入新鮮內容",
+        "syncDescription": "檔更改時自動重新組合",
+        "staticBadge": "預設",
+        "dynamicBadge": "新鮮",
+        "syncBadge": "即時",
+        "insights": {
+          "highSyncCount": {
+            "title": "高同步檔案數",
+            "description": "{count} 個檔處於同步模式",
+            "recommendation": "考慮對更新頻率較低的檔使用動態模式以減少資源使用"
+          },
+          "syncEnabled": {
+            "title": "同步模式已啟用",
+            "description": "{count} 個檔在更改時自動更新"
+          },
+          "highDynamicUsage": {
+            "title": "高動態模式使用率",
+            "description": "{percentage}% 的檔正在使用動態模式",
+            "recommendation": "對於很少更改的檔，靜態模式可能已足夠"
+          },
+          "dynamicEnabled": {
+            "title": "動態模式活動",
+            "description": "{count} 個檔在每次組合時載入新鮮內容"
+          },
+          "staticOnly": {
+            "title": "僅靜態模式",
+            "description": "所有檔都使用初始索引的緩存內容",
+            "recommendation": "為頻繁更新的檔啟用動態或同步模式以確保內容新鮮"
+          },
+          "mixedModes": {
+            "title": "混合載入模式",
+            "description": "{percentage}% 的檔正在使用特殊載入模式"
+          }
+        }
+      }
+    },
+    "composeSettings": {
+      "title": "組合設定",
+      "chunkOverlapping": "@:knowledgeStack.chunksConsole.chunk重疊",
+      "embeddingModel": {
+        "title": "嵌入模型",
+        "warning": "更改嵌入模型將需要重新組合整個知識庫，即使那樣，重新組合也可能會失敗。",
+        "learnMore": "瞭解有關嵌入模型相容性的更多資訊",
+        "defaultPlaceholder": "預設 (本地)"
+      },
+      "placeholders": {
+        "selectEmbeddingModel": "選擇嵌入模型",
+        "selectChunkOverlapping": "選擇塊重疊",
+        "selectChunkSize": "選擇塊大小"
+      },
+      "chunkingMethod": {
+        "title": "分塊方法",
+        "recursiveCharacter": "遞迴字元",
+        "sentence": "句子",
+        "description": "選擇如何將文檔分塊為更小的部分以取得更好的搜尋和檢索。"
+      },
+      "overlapping": {
+        "title": "重疊",
+        "description": "選擇塊之間應有多少重疊。較高的重疊可以改善上下文，但會增加 Token 使用量。"
+      },
+      "chunkSize": {
+        "title": "@:knowledgeStack.chunksConsole.chunk大小",
+        "description": "以字元為單位設定每個塊的最大大小。較小的塊可以提高搜尋準確性，但會增加 Token 使用量。"
+      },
+      "chunkSizesToIgnore": {
+        "title": "要忽略的@:knowledgeStack.chunksConsole.chunk大小",
+        "description": "指定處理過程中應忽略的塊大小。用於排除非常小或非常大的塊。"
+      }
+    },
+    "querySettings": {
+      "title": "查詢設定",
+      "numberOfChunks": "@:knowledgeStack.chunksConsole.chunks數量",
+      "promptPrefix": "提示詞首碼",
+      "similarityThreshold": {
+        "low": "低",
+        "medium": "中",
+        "high": "高",
+        "highest": "最高"
+      },
+      "searchTypes": {
+        "semantic": "語義搜尋",
+        "keyword": "關鍵字搜尋",
+        "hybrid": "混合搜尋"
+      },
+      "modes": {
+        "push": "推送模式",
+        "pull": "拉取模式"
+      },
+      "chunks": {
+        "title": "知識庫上下文",
+        "loadError": "載入知識庫塊失敗。請重試。",
+        "searchSettings": "搜尋設定",
+        "searchType": "搜尋類型",
+        "searchQuery": "搜尋查詢",
+        "source": "來源",
+        "content": "內容",
+        "fullContent": "完整內容",
+        "chunkInfo": "@:knowledgeStack.chunksConsole.chunk信息",
+        "knowledgeStack": "知識庫",
+        "chunks": "塊",
+        "maxChunks": "最大@:knowledgeStack.chunksConsole.chunks"
+      },
+      "retrievalMode": {
+        "title": "@:knowledgeStack.chunksConsole.chunk檢索模式",
+        "description": "在預取塊的推送模式或模型可以直接查詢知識庫的拉取模式之間選擇"
+      }
+    },
+    "chunks": {
+      "coverage": "覆蓋率",
+      "skippedChunks": "跳過的@:knowledgeStack.chunksConsole.chunks",
+      "availableChunks": "可用的@:knowledgeStack.chunksConsole.chunks",
+      "numberOfChunks": "@:knowledgeStack.chunksConsole.chunks數量",
+      "promptPrefix": "提示詞首碼",
+      "chunkingMethod": "分塊方法",
+      "chunkSize": "@:knowledgeStack.chunksConsole.chunk大小",
+      "chunkOverlap": "@:knowledgeStack.chunksConsole.chunk重疊",
+      "totalChunks": "總@:knowledgeStack.chunksConsole.chunks",
+      "cachedChunks": "緩存@:knowledgeStack.chunksConsole.chunks",
+      "scrubbedChunks": "已清洗@:knowledgeStack.chunksConsole.chunks",
+      "loadError": "載入知識庫塊失敗。請重試。",
+      "searchSettings": "搜尋設定",
+      "searchType": "搜尋類型",
+      "maxChunks": "最大@:knowledgeStack.chunksConsole.chunks",
+      "searchQuery": "搜尋查詢",
+      "synthesizedQuery": "合成查詢",
+      "chunks": "塊 | 塊",
+      "source": "來源",
+      "content": "內容",
+      "viewFull": "查看完整內容",
+      "fullContent": "完整@:knowledgeStack.chunksConsole.chunk內容",
+      "chunkInfo": "@:knowledgeStack.chunksConsole.chunk信息",
+      "knowledgeStack": "知識庫",
+      "scrubbed": "已清洗",
+      "original": "原始",
+      "chunkId": "@:knowledgeStack.chunksConsole.chunk ID",
+      "piiStatus": "PII 狀態",
+      "piiScrubbed": "PII 已清洗",
+      "piiUnscrubbed": "PII 未清洗",
+      "tooltip": {
+        "scrubbed": "內容已清洗以移除 PII",
+        "cached": "使用了緩存的清洗版本",
+        "fresh": "剛清洗的內容",
+        "original": "無@:pii.scrubbing.title的原始內容"
+      },
+      "queryAnalysis": "查詢分析",
+      "fullContentRetrieved": "完整內容上下文已啟動",
+      "documentsRetrieved": "已檢索文檔",
+      "contentContext": "內容上下文",
+      "keywords": "關鍵字",
+      "fullDoc": "完整文檔",
+      "type": "類型",
+      "fullDocument": "完整文檔"
+    },
+    "chunksVisualizer": {
+      "title": "@:knowledgeStack.chunksConsole.chunks視覺化器",
+      "description": "視覺化文檔如何分塊",
+      "openStitcher": "打開視覺化器",
+      "viewStitcher": "查看視覺化器",
+      "stitchableFiles": "可用檔案",
+      "loading": "正在載入檔...",
+      "noFiles": "未找到檔案",
+      "selectFile": "選擇一個檔",
+      "selectFileDescription": "從左側選擇一個檔以視覺化其塊和內容",
+      "mimeType": "MIME 類型",
+      "chunks": "@:knowledgeStack.chunksConsole.chunks",
+      "overlaps": "重疊",
+      "stitchedSize": "拼接大小",
+      "showOverlaps": "顯示重疊",
+      "hideOverlaps": "隱藏重疊",
+      "showChunks": "顯示@:knowledgeStack.chunksConsole.chunks",
+      "showStitched": "顯示拼接",
+      "copyContent": "複製內容",
+      "stitchedContent": "拼接內容",
+      "scrubbedChunks": "已清洗@:knowledgeStack.chunksConsole.chunks",
+      "unScrubbedChunks": "未清洗@:knowledgeStack.chunksConsole.chunks",
+      "overlapRemoved": "重疊部分已被移除以進行乾淨的文字重建",
+      "chunkNumber": "@:knowledgeStack.chunksConsole.chunk {number}",
+      "overlapPrevious": "重疊上一個",
+      "overlapNext": "重疊下一個",
+      "overlapWithPrevious": "此文字與上一個塊重疊",
+      "overlapWithNext": "此文字與下一個塊重疊",
+      "chunkIndices": "檔中的字元位置",
+      "coreIndices": "無重疊的核心內容",
+      "chunkCount": "{count} 個塊",
+      "showOriginal": "顯示原始",
+      "showScrubbed": "顯示已清洗",
+      "showScrubbedOnly": "僅顯示已清洗",
+      "showAllChunks": "顯示所有@:knowledgeStack.chunksConsole.chunks",
+      "tooltip": {
+        "scrubbed": "內容已清洗以移除 PII",
+        "cached": "使用了緩存的清洗版本",
+        "fresh": "剛清洗的內容"
+      },
+      "itemsPerPage": "每頁",
+      "showingChunks": "{total} 個塊中的 {start}-{end}",
+      "loadingChunks": "正在載入塊...",
+      "noItems": "未找到專案",
+      "selectItem": "選擇一個專案",
+      "selectItemDescription": "從左側選擇檔或筆記以視覺化其塊和內容",
+      "openConsole": "打開控制台",
+      "selectedChunks": "已選 {count} 個@:knowledgeStack.chunksConsole.chunk",
+      "deleteSelected": "刪除已選",
+      "clearSelection": "清除選擇",
+      "confirmDelete": "確認刪除",
+      "confirmDeleteMessage": "您確定要刪除 {count} 個選中的塊嗎？此操作無法撤銷。",
+      "deleteSuccess": "@:knowledgeStack.chunksConsole.chunks已刪除",
+      "deleteSuccessDetail": "成功刪除 {count} 個塊",
+      "deletedChunksCount": "{count} 個@:knowledgeStack.chunksConsole.chunk已成功刪除",
+      "deleteError": "刪除失敗"
+    },
+    "export": {
+      "forceCompose": "強制組合",
+      "overallProgress": "總體進度",
+      "itemsExported": "{count} 個專案已匯出",
+      "items": "專案",
+      "skip": "跳過",
+      "exportCompleted": "匯出成功完成！",
+      "savedTo": "儲存至：{path}",
+      "cancelAll": "取消所有",
+      "done": "完成",
+      "export": "匯出",
+      "exporting": "正在匯出",
+      "knowledgeStack": "知識庫",
+      "folder": "資料夾",
+      "exportFailed": "匯出失敗",
+      "importFailed": "匯入失敗"
+    },
+    "messages": {
+      "editsSaved": "您對知識庫的更改已儲存。您需要重新組合它以套用更改。",
+      "savedAndProcessing": "知識庫已儲存並開始處理",
+      "cannotForceCompose": "無法強制組合：必須先儲存知識庫",
+      "failedToForceCompose": "強制組合知識庫失敗",
+      "forceComposeStarted": "強制組合已開始 - 所有專案將被重新處理",
+      "failedToUpdateQuerySettings": "更新查詢設定失敗",
+      "querySettingsUpdated": "查詢設定已更新",
+      "justNow": "剛剛",
+      "minutesAgo": "{minutes}分鐘前",
+      "searchPlaceholder": "搜尋...",
+      "failedToSelectItem": "選擇專案失敗",
+      "failedToSelectFolder": "選擇資料夾失敗",
+      "processingCompleted": "知識庫 {title} 處理完成",
+      "processingFailed": "知識庫 {title} 處理失敗",
+      "nothingToCompose": "知識庫 {title} 無內容可組合",
+      "composeError": "組合知識庫 {title} 出錯",
+      "downloadImportNotAvailableInWeb": "從 URL 匯入僅在桌面套用程式中可用",
+      "deleteSuccess": "{count} 個@:knowledgeStack.title已刪除！",
+      "createError": "建立@:knowledgeStack.title失敗",
+      "saveEditsError": "儲存@:knowledgeStack.title編輯失敗",
+      "folderAdded": "資料夾 '{name}' 已新增到知識庫"
+    },
+    "folderLockedTemporary": "資料夾 '{name}' 已臨時鎖定",
+    "folderLockedPermanent": "資料夾 '{name}' 已永久鎖定",
+    "lockFailed": "鎖定資料夾失敗",
+    "folderUnlocked": "資料夾 '{name}' 已解鎖",
+    "unlockFailed": "解鎖資料夾失敗",
+    "unlock": "解鎖",
+    "status": {
+      "misc": "雜項",
+      "path": "路徑：{path}",
+      "name": "名稱：{name}",
+      "unknown": "未知",
+      "original": "原始",
+      "loadingPiiAnalytics": "正在載入 PII 分析...",
+      "allItemsUnlocked": "所有專案已解鎖，需要時可重新處理。"
+    },
+    "abortProcessing": "中斷處理",
+    "errors": {
+      "processingFailed": "處理失敗",
+      "errorMessage": "錯誤訊息",
+      "occurredAt": "發生於",
+      "failedFile": "失敗檔",
+      "errorSummary": "錯誤摘要",
+      "technicalDetails": "技術細節",
+      "stackTrace": "堆疊跟蹤",
+      "copyDetails": "複製詳細資訊",
+      "detailsCopied": "錯誤詳細資訊已複製到剪切板",
+      "clickToSeeDetails": "點擊查看錯誤詳情",
+      "fileIsNull": "檔案為空",
+      "checkingPathError": "檢查路徑是否為目錄時出錯",
+      "processingFolderError": "處理資料夾出錯",
+      "lockFolderTemporaryFailed": "臨時鎖定資料夾失敗",
+      "lockFolderPermanentFailed": "永久鎖定資料夾失敗",
+      "unlockFolderFailed": "解鎖資料夾失敗",
+      "status": {
+        "completed": "狀態：已完成",
+        "processing": "狀態：正在處理",
+        "pending": "狀態：待定",
+        "draft": "狀態：草稿",
+        "needsReprocessing": "狀態：需要重新處理",
+        "error": "狀態：錯誤",
+        "lockedTemporary": "狀態：臨時鎖定",
+        "lockedPermanent": "狀態：永久鎖定",
+        "aborted": "狀態：已中斷",
+        "unknown": "狀態：未知"
+      }
+    }
+  },
+  "features": {
+    "showcase": {
+      "title": "解鎖 Aurum 功能",
+      "subtitle": "升級到 Aurum 許可證以取得最強大的 AI 功能和進階能力",
+      "eyebrow": "您所需要的一切",
+      "viewPricing": "查看定價",
+      "featureMatrix": "功能矩陣",
+      "activateLicense": "啟動許可證",
+      "licenses": {
+        "aurum": "Aurum"
+      }
+    }
+  },
+  "images": {
+    "upload": "上傳圖像...",
+    "onlySupported": "僅支持影像檔。",
+    "maxSize": "圖像必須小於 1MB。"
+  },
+  "userAvatar": {
+    "updated": "個人資料圖片已更新。",
+    "updateFailed": "更新圖像失敗。請重試。",
+    "changeHint": "點擊更改個人資料圖片"
+  }
+}
